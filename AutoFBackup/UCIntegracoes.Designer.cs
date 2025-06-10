@@ -30,71 +30,71 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCIntegracoes));
-            this.tbControl = new MetroFramework.Controls.MetroTabControl();
-            this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
+            this.tbControl = new System.Windows.Forms.TabControl();
+            this.metroTabPage1 = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.chbxEmail = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxEmail = new System.Windows.Forms.CheckBox();
             this.gpbxEmail = new System.Windows.Forms.GroupBox();
-            this.chbxNotificacaoErro_Email = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.chbxLogBackup_Email = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxNotificacaoErro_Email = new System.Windows.Forms.CheckBox();
+            this.chbxLogBackup_Email = new System.Windows.Forms.CheckBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.tbDestinatarios_Email = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbDestinatarios_Email = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.tbAssunto_Email = new Guna.UI2.WinForms.Guna2TextBox();
-            this.chbxSSL_Email = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.nmUpDownPorta_Email = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.tbAssunto_Email = new System.Windows.Forms.TextBox();
+            this.chbxSSL_Email = new System.Windows.Forms.CheckBox();
+            this.nmUpDownPorta_Email = new System.Windows.Forms.NumericUpDown();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.tbSenha_Email = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbSenha_Email = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.tbUsuario_Email = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbUsuario_Email = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.tbHost_Email = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbHost_Email = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.chbxTelegram = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxTelegram = new System.Windows.Forms.CheckBox();
             this.gpbxTelegram = new System.Windows.Forms.GroupBox();
-            this.btnBuscarChatID_Telegram = new Guna.UI2.WinForms.Guna2TileButton();
-            this.chbxNotificacaoErro_Telegram = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.chbxLogBackup_Telegram = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.btnBuscarChatID_Telegram = new System.Windows.Forms.Button();
+            this.chbxNotificacaoErro_Telegram = new System.Windows.Forms.CheckBox();
+            this.chbxLogBackup_Telegram = new System.Windows.Forms.CheckBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.tbChatIDDestino_Telegram = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbChatIDDestino_Telegram = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.tbAccessTokenBot_Telegram = new Guna.UI2.WinForms.Guna2TextBox();
-            this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
+            this.tbAccessTokenBot_Telegram = new System.Windows.Forms.TextBox();
+            this.metroTabPage2 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.chbxFTP = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxFTP = new System.Windows.Forms.CheckBox();
             this.gpbxFTP = new System.Windows.Forms.GroupBox();
             this.lblExplicacaoExclusaoBackupsAntigos = new System.Windows.Forms.LinkLabel();
             this.label19 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.tbDiretorio_FTP = new Guna.UI2.WinForms.Guna2TextBox();
-            this.chbxPassivo_FTP = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.nmUpDownPorta_FTP = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.tbDiretorio_FTP = new System.Windows.Forms.TextBox();
+            this.chbxPassivo_FTP = new System.Windows.Forms.CheckBox();
+            this.nmUpDownPorta_FTP = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
-            this.DiasExcluirBackupsAntigos_FTP = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.chbxExcluiBackupsAntigos_FTP = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.DiasExcluirBackupsAntigos_FTP = new System.Windows.Forms.NumericUpDown();
+            this.chbxExcluiBackupsAntigos_FTP = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.tbSenha_FTP = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbSenha_FTP = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbUsuario_FTP = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbUsuario_FTP = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.tbHost_FTP = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbHost_FTP = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.chbxMega = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxMega = new System.Windows.Forms.CheckBox();
             this.gpbxMega = new System.Windows.Forms.GroupBox();
             this.label35 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.tbPasta_MegaNZ = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbPasta_MegaNZ = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.tbSenha_MegaNZ = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbSenha_MegaNZ = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.tbEmail_MegaNZ = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnSalvar = new Guna.UI2.WinForms.Guna2TileButton();
-            this.bunifuElipseBtnSalvar = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.tbEmail_MegaNZ = new System.Windows.Forms.TextBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.bunifuElipseBtnSalvar = new System.ComponentModel.Component(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuElipseBtnBuscarChatID = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipseBtnBuscarChatID = new System.ComponentModel.Component(this.components);
             this.tbControl.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -160,10 +160,6 @@
             // 
             this.chbxEmail.AutoSize = true;
             this.chbxEmail.BackColor = System.Drawing.Color.Transparent;
-            this.chbxEmail.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxEmail.CheckedState.BorderRadius = 2;
-            this.chbxEmail.CheckedState.BorderThickness = 0;
-            this.chbxEmail.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxEmail.ForeColor = System.Drawing.Color.Black;
             this.chbxEmail.Location = new System.Drawing.Point(5, 8);
             this.chbxEmail.Name = "chbxEmail";
@@ -171,9 +167,7 @@
             this.chbxEmail.TabIndex = 0;
             this.chbxEmail.Text = "Ativar Integração com o E-mail";
             this.chbxEmail.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxEmail.UncheckedState.BorderRadius = 2;
             this.chbxEmail.UncheckedState.BorderThickness = 0;
-            this.chbxEmail.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxEmail.UseVisualStyleBackColor = false;
             this.chbxEmail.CheckedChanged += new System.EventHandler(this.chbxEmail_CheckedChanged);
             // 
@@ -207,10 +201,6 @@
             // 
             this.chbxNotificacaoErro_Email.AutoSize = true;
             this.chbxNotificacaoErro_Email.BackColor = System.Drawing.Color.Transparent;
-            this.chbxNotificacaoErro_Email.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxNotificacaoErro_Email.CheckedState.BorderRadius = 2;
-            this.chbxNotificacaoErro_Email.CheckedState.BorderThickness = 0;
-            this.chbxNotificacaoErro_Email.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxNotificacaoErro_Email.ForeColor = System.Drawing.Color.Black;
             this.chbxNotificacaoErro_Email.Location = new System.Drawing.Point(14, 200);
             this.chbxNotificacaoErro_Email.Name = "chbxNotificacaoErro_Email";
@@ -219,19 +209,13 @@
             this.chbxNotificacaoErro_Email.Text = "Receber Notificações em Casos de Erro ao Gerar o Arquivo de Backup (Log do Erro e" +
     "m anexo)";
             this.chbxNotificacaoErro_Email.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxNotificacaoErro_Email.UncheckedState.BorderRadius = 2;
             this.chbxNotificacaoErro_Email.UncheckedState.BorderThickness = 0;
-            this.chbxNotificacaoErro_Email.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxNotificacaoErro_Email.UseVisualStyleBackColor = false;
             // 
             // chbxLogBackup_Email
             // 
             this.chbxLogBackup_Email.AutoSize = true;
             this.chbxLogBackup_Email.BackColor = System.Drawing.Color.Transparent;
-            this.chbxLogBackup_Email.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxLogBackup_Email.CheckedState.BorderRadius = 2;
-            this.chbxLogBackup_Email.CheckedState.BorderThickness = 0;
-            this.chbxLogBackup_Email.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxLogBackup_Email.ForeColor = System.Drawing.Color.Black;
             this.chbxLogBackup_Email.Location = new System.Drawing.Point(14, 180);
             this.chbxLogBackup_Email.Name = "chbxLogBackup_Email";
@@ -239,9 +223,7 @@
             this.chbxLogBackup_Email.TabIndex = 58;
             this.chbxLogBackup_Email.Text = "Receber o Log do Backup em \".txt\" como anexo";
             this.chbxLogBackup_Email.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxLogBackup_Email.UncheckedState.BorderRadius = 2;
             this.chbxLogBackup_Email.UncheckedState.BorderThickness = 0;
-            this.chbxLogBackup_Email.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxLogBackup_Email.UseVisualStyleBackColor = false;
             // 
             // label17
@@ -270,22 +252,13 @@
             // 
             this.tbDestinatarios_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbDestinatarios_Email.DefaultText = "";
-            this.tbDestinatarios_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbDestinatarios_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbDestinatarios_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDestinatarios_Email.DisabledState.Parent = this.tbDestinatarios_Email;
-            this.tbDestinatarios_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbDestinatarios_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbDestinatarios_Email.FocusedState.Parent = this.tbDestinatarios_Email;
             this.tbDestinatarios_Email.ForeColor = System.Drawing.Color.Black;
-            this.tbDestinatarios_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbDestinatarios_Email.HoverState.Parent = this.tbDestinatarios_Email;
             this.tbDestinatarios_Email.Location = new System.Drawing.Point(96, 134);
             this.tbDestinatarios_Email.Name = "tbDestinatarios_Email";
             this.tbDestinatarios_Email.PasswordChar = '\0';
-            this.tbDestinatarios_Email.PlaceholderText = "";
             this.tbDestinatarios_Email.SelectedText = "";
-            this.tbDestinatarios_Email.ShadowDecoration.Parent = this.tbDestinatarios_Email;
             this.tbDestinatarios_Email.Size = new System.Drawing.Size(234, 24);
             this.tbDestinatarios_Email.TabIndex = 54;
             // 
@@ -304,22 +277,13 @@
             // 
             this.tbAssunto_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbAssunto_Email.DefaultText = "";
-            this.tbAssunto_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbAssunto_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbAssunto_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbAssunto_Email.DisabledState.Parent = this.tbAssunto_Email;
-            this.tbAssunto_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbAssunto_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbAssunto_Email.FocusedState.Parent = this.tbAssunto_Email;
             this.tbAssunto_Email.ForeColor = System.Drawing.Color.Black;
-            this.tbAssunto_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbAssunto_Email.HoverState.Parent = this.tbAssunto_Email;
             this.tbAssunto_Email.Location = new System.Drawing.Point(96, 103);
             this.tbAssunto_Email.Name = "tbAssunto_Email";
             this.tbAssunto_Email.PasswordChar = '\0';
-            this.tbAssunto_Email.PlaceholderText = "";
             this.tbAssunto_Email.SelectedText = "";
-            this.tbAssunto_Email.ShadowDecoration.Parent = this.tbAssunto_Email;
             this.tbAssunto_Email.Size = new System.Drawing.Size(365, 24);
             this.tbAssunto_Email.TabIndex = 52;
             // 
@@ -327,10 +291,6 @@
             // 
             this.chbxSSL_Email.AutoSize = true;
             this.chbxSSL_Email.BackColor = System.Drawing.Color.Transparent;
-            this.chbxSSL_Email.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxSSL_Email.CheckedState.BorderRadius = 2;
-            this.chbxSSL_Email.CheckedState.BorderThickness = 0;
-            this.chbxSSL_Email.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxSSL_Email.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxSSL_Email.Location = new System.Drawing.Point(392, 47);
             this.chbxSSL_Email.Name = "chbxSSL_Email";
@@ -338,21 +298,13 @@
             this.chbxSSL_Email.TabIndex = 51;
             this.chbxSSL_Email.Text = "Usar SSL";
             this.chbxSSL_Email.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxSSL_Email.UncheckedState.BorderRadius = 2;
             this.chbxSSL_Email.UncheckedState.BorderThickness = 0;
-            this.chbxSSL_Email.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxSSL_Email.UseVisualStyleBackColor = false;
             // 
             // nmUpDownPorta_Email
             // 
             this.nmUpDownPorta_Email.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownPorta_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownPorta_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownPorta_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownPorta_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownPorta_Email.DisabledState.Parent = this.nmUpDownPorta_Email;
-            this.nmUpDownPorta_Email.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownPorta_Email.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.nmUpDownPorta_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownPorta_Email.FocusedState.Parent = this.nmUpDownPorta_Email;
             this.nmUpDownPorta_Email.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -369,10 +321,8 @@
             0,
             0});
             this.nmUpDownPorta_Email.Name = "nmUpDownPorta_Email";
-            this.nmUpDownPorta_Email.ShadowDecoration.Parent = this.nmUpDownPorta_Email;
             this.nmUpDownPorta_Email.Size = new System.Drawing.Size(68, 26);
             this.nmUpDownPorta_Email.TabIndex = 50;
-            this.nmUpDownPorta_Email.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.nmUpDownPorta_Email.Value = new decimal(new int[] {
             1,
             0,
@@ -405,22 +355,13 @@
             // 
             this.tbSenha_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbSenha_Email.DefaultText = "";
-            this.tbSenha_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbSenha_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbSenha_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbSenha_Email.DisabledState.Parent = this.tbSenha_Email;
-            this.tbSenha_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbSenha_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbSenha_Email.FocusedState.Parent = this.tbSenha_Email;
             this.tbSenha_Email.ForeColor = System.Drawing.Color.Black;
-            this.tbSenha_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbSenha_Email.HoverState.Parent = this.tbSenha_Email;
             this.tbSenha_Email.Location = new System.Drawing.Point(309, 73);
             this.tbSenha_Email.Name = "tbSenha_Email";
             this.tbSenha_Email.PasswordChar = '\0';
-            this.tbSenha_Email.PlaceholderText = "";
             this.tbSenha_Email.SelectedText = "";
-            this.tbSenha_Email.ShadowDecoration.Parent = this.tbSenha_Email;
             this.tbSenha_Email.Size = new System.Drawing.Size(152, 24);
             this.tbSenha_Email.TabIndex = 47;
             // 
@@ -439,22 +380,13 @@
             // 
             this.tbUsuario_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbUsuario_Email.DefaultText = "";
-            this.tbUsuario_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbUsuario_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbUsuario_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbUsuario_Email.DisabledState.Parent = this.tbUsuario_Email;
-            this.tbUsuario_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbUsuario_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbUsuario_Email.FocusedState.Parent = this.tbUsuario_Email;
             this.tbUsuario_Email.ForeColor = System.Drawing.Color.Black;
-            this.tbUsuario_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbUsuario_Email.HoverState.Parent = this.tbUsuario_Email;
             this.tbUsuario_Email.Location = new System.Drawing.Point(96, 73);
             this.tbUsuario_Email.Name = "tbUsuario_Email";
             this.tbUsuario_Email.PasswordChar = '\0';
-            this.tbUsuario_Email.PlaceholderText = "";
             this.tbUsuario_Email.SelectedText = "";
-            this.tbUsuario_Email.ShadowDecoration.Parent = this.tbUsuario_Email;
             this.tbUsuario_Email.Size = new System.Drawing.Size(152, 24);
             this.tbUsuario_Email.TabIndex = 45;
             // 
@@ -473,22 +405,13 @@
             // 
             this.tbHost_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbHost_Email.DefaultText = "";
-            this.tbHost_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbHost_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbHost_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbHost_Email.DisabledState.Parent = this.tbHost_Email;
-            this.tbHost_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbHost_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbHost_Email.FocusedState.Parent = this.tbHost_Email;
             this.tbHost_Email.ForeColor = System.Drawing.Color.Black;
-            this.tbHost_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbHost_Email.HoverState.Parent = this.tbHost_Email;
             this.tbHost_Email.Location = new System.Drawing.Point(96, 45);
             this.tbHost_Email.Name = "tbHost_Email";
             this.tbHost_Email.PasswordChar = '\0';
-            this.tbHost_Email.PlaceholderText = "";
             this.tbHost_Email.SelectedText = "";
-            this.tbHost_Email.ShadowDecoration.Parent = this.tbHost_Email;
             this.tbHost_Email.Size = new System.Drawing.Size(152, 24);
             this.tbHost_Email.TabIndex = 43;
             // 
@@ -505,10 +428,6 @@
             // 
             this.chbxTelegram.AutoSize = true;
             this.chbxTelegram.BackColor = System.Drawing.Color.Transparent;
-            this.chbxTelegram.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxTelegram.CheckedState.BorderRadius = 2;
-            this.chbxTelegram.CheckedState.BorderThickness = 0;
-            this.chbxTelegram.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxTelegram.ForeColor = System.Drawing.Color.Black;
             this.chbxTelegram.Location = new System.Drawing.Point(5, 7);
             this.chbxTelegram.Name = "chbxTelegram";
@@ -516,9 +435,7 @@
             this.chbxTelegram.TabIndex = 0;
             this.chbxTelegram.Text = "Ativar Integração com o Telegram";
             this.chbxTelegram.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxTelegram.UncheckedState.BorderRadius = 2;
             this.chbxTelegram.UncheckedState.BorderThickness = 0;
-            this.chbxTelegram.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxTelegram.UseVisualStyleBackColor = false;
             this.chbxTelegram.CheckedChanged += new System.EventHandler(this.chbxTelegram_CheckedChanged);
             // 
@@ -541,17 +458,12 @@
             // 
             // btnBuscarChatID_Telegram
             // 
-            this.btnBuscarChatID_Telegram.CheckedState.Parent = this.btnBuscarChatID_Telegram;
             this.btnBuscarChatID_Telegram.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscarChatID_Telegram.CustomImages.Parent = this.btnBuscarChatID_Telegram;
-            this.btnBuscarChatID_Telegram.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnBuscarChatID_Telegram.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnBuscarChatID_Telegram.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarChatID_Telegram.HoverState.Parent = this.btnBuscarChatID_Telegram;
             this.btnBuscarChatID_Telegram.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarChatID_Telegram.Image")));
             this.btnBuscarChatID_Telegram.Location = new System.Drawing.Point(471, 68);
             this.btnBuscarChatID_Telegram.Name = "btnBuscarChatID_Telegram";
-            this.btnBuscarChatID_Telegram.ShadowDecoration.Parent = this.btnBuscarChatID_Telegram;
             this.btnBuscarChatID_Telegram.Size = new System.Drawing.Size(40, 22);
             this.btnBuscarChatID_Telegram.TabIndex = 62;
             this.btnBuscarChatID_Telegram.Click += new System.EventHandler(this.btnBuscarChatID_Telegram_Click);
@@ -560,10 +472,6 @@
             // 
             this.chbxNotificacaoErro_Telegram.AutoSize = true;
             this.chbxNotificacaoErro_Telegram.BackColor = System.Drawing.Color.Transparent;
-            this.chbxNotificacaoErro_Telegram.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxNotificacaoErro_Telegram.CheckedState.BorderRadius = 2;
-            this.chbxNotificacaoErro_Telegram.CheckedState.BorderThickness = 0;
-            this.chbxNotificacaoErro_Telegram.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxNotificacaoErro_Telegram.ForeColor = System.Drawing.Color.Black;
             this.chbxNotificacaoErro_Telegram.Location = new System.Drawing.Point(14, 120);
             this.chbxNotificacaoErro_Telegram.Name = "chbxNotificacaoErro_Telegram";
@@ -572,19 +480,13 @@
             this.chbxNotificacaoErro_Telegram.Text = "Receber Notificações em Casos de Erro ao Gerar o Arquivo de Backup (Log do Erro t" +
     "ambém)";
             this.chbxNotificacaoErro_Telegram.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxNotificacaoErro_Telegram.UncheckedState.BorderRadius = 2;
             this.chbxNotificacaoErro_Telegram.UncheckedState.BorderThickness = 0;
-            this.chbxNotificacaoErro_Telegram.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxNotificacaoErro_Telegram.UseVisualStyleBackColor = false;
             // 
             // chbxLogBackup_Telegram
             // 
             this.chbxLogBackup_Telegram.AutoSize = true;
             this.chbxLogBackup_Telegram.BackColor = System.Drawing.Color.Transparent;
-            this.chbxLogBackup_Telegram.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxLogBackup_Telegram.CheckedState.BorderRadius = 2;
-            this.chbxLogBackup_Telegram.CheckedState.BorderThickness = 0;
-            this.chbxLogBackup_Telegram.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxLogBackup_Telegram.ForeColor = System.Drawing.Color.Black;
             this.chbxLogBackup_Telegram.Location = new System.Drawing.Point(14, 100);
             this.chbxLogBackup_Telegram.Name = "chbxLogBackup_Telegram";
@@ -592,9 +494,7 @@
             this.chbxLogBackup_Telegram.TabIndex = 60;
             this.chbxLogBackup_Telegram.Text = "Receber o Log do Backup em \".txt\"";
             this.chbxLogBackup_Telegram.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxLogBackup_Telegram.UncheckedState.BorderRadius = 2;
             this.chbxLogBackup_Telegram.UncheckedState.BorderThickness = 0;
-            this.chbxLogBackup_Telegram.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxLogBackup_Telegram.UseVisualStyleBackColor = false;
             // 
             // label20
@@ -612,22 +512,13 @@
             // 
             this.tbChatIDDestino_Telegram.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbChatIDDestino_Telegram.DefaultText = "";
-            this.tbChatIDDestino_Telegram.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbChatIDDestino_Telegram.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbChatIDDestino_Telegram.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbChatIDDestino_Telegram.DisabledState.Parent = this.tbChatIDDestino_Telegram;
-            this.tbChatIDDestino_Telegram.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbChatIDDestino_Telegram.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbChatIDDestino_Telegram.FocusedState.Parent = this.tbChatIDDestino_Telegram;
             this.tbChatIDDestino_Telegram.ForeColor = System.Drawing.Color.Black;
-            this.tbChatIDDestino_Telegram.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbChatIDDestino_Telegram.HoverState.Parent = this.tbChatIDDestino_Telegram;
             this.tbChatIDDestino_Telegram.Location = new System.Drawing.Point(106, 67);
             this.tbChatIDDestino_Telegram.Name = "tbChatIDDestino_Telegram";
             this.tbChatIDDestino_Telegram.PasswordChar = '\0';
-            this.tbChatIDDestino_Telegram.PlaceholderText = "";
             this.tbChatIDDestino_Telegram.SelectedText = "";
-            this.tbChatIDDestino_Telegram.ShadowDecoration.Parent = this.tbChatIDDestino_Telegram;
             this.tbChatIDDestino_Telegram.Size = new System.Drawing.Size(359, 24);
             this.tbChatIDDestino_Telegram.TabIndex = 49;
             // 
@@ -646,22 +537,13 @@
             // 
             this.tbAccessTokenBot_Telegram.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbAccessTokenBot_Telegram.DefaultText = "";
-            this.tbAccessTokenBot_Telegram.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbAccessTokenBot_Telegram.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbAccessTokenBot_Telegram.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbAccessTokenBot_Telegram.DisabledState.Parent = this.tbAccessTokenBot_Telegram;
-            this.tbAccessTokenBot_Telegram.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbAccessTokenBot_Telegram.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbAccessTokenBot_Telegram.FocusedState.Parent = this.tbAccessTokenBot_Telegram;
             this.tbAccessTokenBot_Telegram.ForeColor = System.Drawing.Color.Black;
-            this.tbAccessTokenBot_Telegram.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbAccessTokenBot_Telegram.HoverState.Parent = this.tbAccessTokenBot_Telegram;
             this.tbAccessTokenBot_Telegram.Location = new System.Drawing.Point(106, 37);
             this.tbAccessTokenBot_Telegram.Name = "tbAccessTokenBot_Telegram";
             this.tbAccessTokenBot_Telegram.PasswordChar = '\0';
-            this.tbAccessTokenBot_Telegram.PlaceholderText = "";
             this.tbAccessTokenBot_Telegram.SelectedText = "";
-            this.tbAccessTokenBot_Telegram.ShadowDecoration.Parent = this.tbAccessTokenBot_Telegram;
             this.tbAccessTokenBot_Telegram.Size = new System.Drawing.Size(405, 24);
             this.tbAccessTokenBot_Telegram.TabIndex = 45;
             // 
@@ -697,10 +579,6 @@
             // 
             this.chbxFTP.AutoSize = true;
             this.chbxFTP.BackColor = System.Drawing.Color.Transparent;
-            this.chbxFTP.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxFTP.CheckedState.BorderRadius = 2;
-            this.chbxFTP.CheckedState.BorderThickness = 0;
-            this.chbxFTP.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxFTP.ForeColor = System.Drawing.Color.Black;
             this.chbxFTP.Location = new System.Drawing.Point(5, 8);
             this.chbxFTP.Name = "chbxFTP";
@@ -708,9 +586,7 @@
             this.chbxFTP.TabIndex = 0;
             this.chbxFTP.Text = "Ativar Integração com o FTP";
             this.chbxFTP.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxFTP.UncheckedState.BorderRadius = 2;
             this.chbxFTP.UncheckedState.BorderThickness = 0;
-            this.chbxFTP.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxFTP.UseVisualStyleBackColor = false;
             this.chbxFTP.CheckedChanged += new System.EventHandler(this.chbxFTP_CheckedChanged);
             // 
@@ -781,22 +657,13 @@
             // 
             this.tbDiretorio_FTP.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbDiretorio_FTP.DefaultText = "";
-            this.tbDiretorio_FTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbDiretorio_FTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbDiretorio_FTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorio_FTP.DisabledState.Parent = this.tbDiretorio_FTP;
-            this.tbDiretorio_FTP.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbDiretorio_FTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbDiretorio_FTP.FocusedState.Parent = this.tbDiretorio_FTP;
             this.tbDiretorio_FTP.ForeColor = System.Drawing.Color.Black;
-            this.tbDiretorio_FTP.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbDiretorio_FTP.HoverState.Parent = this.tbDiretorio_FTP;
             this.tbDiretorio_FTP.Location = new System.Drawing.Point(67, 102);
             this.tbDiretorio_FTP.Name = "tbDiretorio_FTP";
             this.tbDiretorio_FTP.PasswordChar = '\0';
-            this.tbDiretorio_FTP.PlaceholderText = "";
             this.tbDiretorio_FTP.SelectedText = "";
-            this.tbDiretorio_FTP.ShadowDecoration.Parent = this.tbDiretorio_FTP;
             this.tbDiretorio_FTP.Size = new System.Drawing.Size(379, 24);
             this.tbDiretorio_FTP.TabIndex = 43;
             // 
@@ -804,10 +671,6 @@
             // 
             this.chbxPassivo_FTP.AutoSize = true;
             this.chbxPassivo_FTP.BackColor = System.Drawing.Color.Transparent;
-            this.chbxPassivo_FTP.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxPassivo_FTP.CheckedState.BorderRadius = 2;
-            this.chbxPassivo_FTP.CheckedState.BorderThickness = 0;
-            this.chbxPassivo_FTP.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxPassivo_FTP.Enabled = false;
             this.chbxPassivo_FTP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxPassivo_FTP.Location = new System.Drawing.Point(369, 46);
@@ -816,21 +679,13 @@
             this.chbxPassivo_FTP.TabIndex = 42;
             this.chbxPassivo_FTP.Text = "Passivo";
             this.chbxPassivo_FTP.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxPassivo_FTP.UncheckedState.BorderRadius = 2;
             this.chbxPassivo_FTP.UncheckedState.BorderThickness = 0;
-            this.chbxPassivo_FTP.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxPassivo_FTP.UseVisualStyleBackColor = false;
             // 
             // nmUpDownPorta_FTP
             // 
             this.nmUpDownPorta_FTP.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownPorta_FTP.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownPorta_FTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownPorta_FTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownPorta_FTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownPorta_FTP.DisabledState.Parent = this.nmUpDownPorta_FTP;
-            this.nmUpDownPorta_FTP.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownPorta_FTP.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.nmUpDownPorta_FTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownPorta_FTP.FocusedState.Parent = this.nmUpDownPorta_FTP;
             this.nmUpDownPorta_FTP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -847,10 +702,8 @@
             0,
             0});
             this.nmUpDownPorta_FTP.Name = "nmUpDownPorta_FTP";
-            this.nmUpDownPorta_FTP.ShadowDecoration.Parent = this.nmUpDownPorta_FTP;
             this.nmUpDownPorta_FTP.Size = new System.Drawing.Size(68, 26);
             this.nmUpDownPorta_FTP.TabIndex = 41;
-            this.nmUpDownPorta_FTP.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.nmUpDownPorta_FTP.Value = new decimal(new int[] {
             1,
             0,
@@ -872,31 +725,19 @@
             // 
             this.DiasExcluirBackupsAntigos_FTP.BackColor = System.Drawing.Color.Transparent;
             this.DiasExcluirBackupsAntigos_FTP.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.Parent = this.DiasExcluirBackupsAntigos_FTP;
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
             this.DiasExcluirBackupsAntigos_FTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DiasExcluirBackupsAntigos_FTP.FocusedState.Parent = this.DiasExcluirBackupsAntigos_FTP;
             this.DiasExcluirBackupsAntigos_FTP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DiasExcluirBackupsAntigos_FTP.ForeColor = System.Drawing.Color.Black;
             this.DiasExcluirBackupsAntigos_FTP.Location = new System.Drawing.Point(280, 155);
             this.DiasExcluirBackupsAntigos_FTP.Name = "DiasExcluirBackupsAntigos_FTP";
-            this.DiasExcluirBackupsAntigos_FTP.ShadowDecoration.Parent = this.DiasExcluirBackupsAntigos_FTP;
             this.DiasExcluirBackupsAntigos_FTP.Size = new System.Drawing.Size(68, 26);
             this.DiasExcluirBackupsAntigos_FTP.TabIndex = 39;
-            this.DiasExcluirBackupsAntigos_FTP.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             // 
             // chbxExcluiBackupsAntigos_FTP
             // 
             this.chbxExcluiBackupsAntigos_FTP.AutoSize = true;
             this.chbxExcluiBackupsAntigos_FTP.BackColor = System.Drawing.Color.Transparent;
-            this.chbxExcluiBackupsAntigos_FTP.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxExcluiBackupsAntigos_FTP.CheckedState.BorderRadius = 2;
-            this.chbxExcluiBackupsAntigos_FTP.CheckedState.BorderThickness = 0;
-            this.chbxExcluiBackupsAntigos_FTP.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxExcluiBackupsAntigos_FTP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxExcluiBackupsAntigos_FTP.Location = new System.Drawing.Point(17, 161);
             this.chbxExcluiBackupsAntigos_FTP.Name = "chbxExcluiBackupsAntigos_FTP";
@@ -904,9 +745,7 @@
             this.chbxExcluiBackupsAntigos_FTP.TabIndex = 38;
             this.chbxExcluiBackupsAntigos_FTP.Text = "Excluir Arquivos de Backup mais antigos que:";
             this.chbxExcluiBackupsAntigos_FTP.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxExcluiBackupsAntigos_FTP.UncheckedState.BorderRadius = 2;
             this.chbxExcluiBackupsAntigos_FTP.UncheckedState.BorderThickness = 0;
-            this.chbxExcluiBackupsAntigos_FTP.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxExcluiBackupsAntigos_FTP.UseVisualStyleBackColor = false;
             // 
             // label5
@@ -935,22 +774,13 @@
             // 
             this.tbSenha_FTP.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbSenha_FTP.DefaultText = "";
-            this.tbSenha_FTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbSenha_FTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbSenha_FTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbSenha_FTP.DisabledState.Parent = this.tbSenha_FTP;
-            this.tbSenha_FTP.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbSenha_FTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbSenha_FTP.FocusedState.Parent = this.tbSenha_FTP;
             this.tbSenha_FTP.ForeColor = System.Drawing.Color.Black;
-            this.tbSenha_FTP.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbSenha_FTP.HoverState.Parent = this.tbSenha_FTP;
             this.tbSenha_FTP.Location = new System.Drawing.Point(280, 72);
             this.tbSenha_FTP.Name = "tbSenha_FTP";
             this.tbSenha_FTP.PasswordChar = '\0';
-            this.tbSenha_FTP.PlaceholderText = "";
             this.tbSenha_FTP.SelectedText = "";
-            this.tbSenha_FTP.ShadowDecoration.Parent = this.tbSenha_FTP;
             this.tbSenha_FTP.Size = new System.Drawing.Size(166, 24);
             this.tbSenha_FTP.TabIndex = 23;
             // 
@@ -969,22 +799,13 @@
             // 
             this.tbUsuario_FTP.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbUsuario_FTP.DefaultText = "";
-            this.tbUsuario_FTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbUsuario_FTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbUsuario_FTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbUsuario_FTP.DisabledState.Parent = this.tbUsuario_FTP;
-            this.tbUsuario_FTP.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbUsuario_FTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbUsuario_FTP.FocusedState.Parent = this.tbUsuario_FTP;
             this.tbUsuario_FTP.ForeColor = System.Drawing.Color.Black;
-            this.tbUsuario_FTP.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbUsuario_FTP.HoverState.Parent = this.tbUsuario_FTP;
             this.tbUsuario_FTP.Location = new System.Drawing.Point(67, 72);
             this.tbUsuario_FTP.Name = "tbUsuario_FTP";
             this.tbUsuario_FTP.PasswordChar = '\0';
-            this.tbUsuario_FTP.PlaceholderText = "";
             this.tbUsuario_FTP.SelectedText = "";
-            this.tbUsuario_FTP.ShadowDecoration.Parent = this.tbUsuario_FTP;
             this.tbUsuario_FTP.Size = new System.Drawing.Size(152, 24);
             this.tbUsuario_FTP.TabIndex = 21;
             // 
@@ -1003,22 +824,13 @@
             // 
             this.tbHost_FTP.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbHost_FTP.DefaultText = "";
-            this.tbHost_FTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbHost_FTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbHost_FTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbHost_FTP.DisabledState.Parent = this.tbHost_FTP;
-            this.tbHost_FTP.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbHost_FTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbHost_FTP.FocusedState.Parent = this.tbHost_FTP;
             this.tbHost_FTP.ForeColor = System.Drawing.Color.Black;
-            this.tbHost_FTP.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbHost_FTP.HoverState.Parent = this.tbHost_FTP;
             this.tbHost_FTP.Location = new System.Drawing.Point(67, 44);
             this.tbHost_FTP.Name = "tbHost_FTP";
             this.tbHost_FTP.PasswordChar = '\0';
-            this.tbHost_FTP.PlaceholderText = "";
             this.tbHost_FTP.SelectedText = "";
-            this.tbHost_FTP.ShadowDecoration.Parent = this.tbHost_FTP;
             this.tbHost_FTP.Size = new System.Drawing.Size(152, 24);
             this.tbHost_FTP.TabIndex = 19;
             // 
@@ -1035,10 +847,6 @@
             // 
             this.chbxMega.AutoSize = true;
             this.chbxMega.BackColor = System.Drawing.Color.Transparent;
-            this.chbxMega.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxMega.CheckedState.BorderRadius = 2;
-            this.chbxMega.CheckedState.BorderThickness = 0;
-            this.chbxMega.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxMega.ForeColor = System.Drawing.Color.Black;
             this.chbxMega.Location = new System.Drawing.Point(5, 7);
             this.chbxMega.Name = "chbxMega";
@@ -1046,9 +854,7 @@
             this.chbxMega.TabIndex = 0;
             this.chbxMega.Text = "Ativar Integração com o Mega.nz";
             this.chbxMega.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.chbxMega.UncheckedState.BorderRadius = 2;
             this.chbxMega.UncheckedState.BorderThickness = 0;
-            this.chbxMega.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxMega.UseVisualStyleBackColor = false;
             this.chbxMega.CheckedChanged += new System.EventHandler(this.chbxMega_CheckedChanged);
             // 
@@ -1095,22 +901,13 @@
             // 
             this.tbPasta_MegaNZ.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbPasta_MegaNZ.DefaultText = "";
-            this.tbPasta_MegaNZ.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbPasta_MegaNZ.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbPasta_MegaNZ.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbPasta_MegaNZ.DisabledState.Parent = this.tbPasta_MegaNZ;
-            this.tbPasta_MegaNZ.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbPasta_MegaNZ.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbPasta_MegaNZ.FocusedState.Parent = this.tbPasta_MegaNZ;
             this.tbPasta_MegaNZ.ForeColor = System.Drawing.Color.Black;
-            this.tbPasta_MegaNZ.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbPasta_MegaNZ.HoverState.Parent = this.tbPasta_MegaNZ;
             this.tbPasta_MegaNZ.Location = new System.Drawing.Point(67, 77);
             this.tbPasta_MegaNZ.Name = "tbPasta_MegaNZ";
             this.tbPasta_MegaNZ.PasswordChar = '\0';
-            this.tbPasta_MegaNZ.PlaceholderText = "";
             this.tbPasta_MegaNZ.SelectedText = "";
-            this.tbPasta_MegaNZ.ShadowDecoration.Parent = this.tbPasta_MegaNZ;
             this.tbPasta_MegaNZ.Size = new System.Drawing.Size(365, 24);
             this.tbPasta_MegaNZ.TabIndex = 29;
             // 
@@ -1129,22 +926,13 @@
             // 
             this.tbSenha_MegaNZ.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbSenha_MegaNZ.DefaultText = "";
-            this.tbSenha_MegaNZ.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbSenha_MegaNZ.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbSenha_MegaNZ.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbSenha_MegaNZ.DisabledState.Parent = this.tbSenha_MegaNZ;
-            this.tbSenha_MegaNZ.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbSenha_MegaNZ.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbSenha_MegaNZ.FocusedState.Parent = this.tbSenha_MegaNZ;
             this.tbSenha_MegaNZ.ForeColor = System.Drawing.Color.Black;
-            this.tbSenha_MegaNZ.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbSenha_MegaNZ.HoverState.Parent = this.tbSenha_MegaNZ;
             this.tbSenha_MegaNZ.Location = new System.Drawing.Point(280, 47);
             this.tbSenha_MegaNZ.Name = "tbSenha_MegaNZ";
             this.tbSenha_MegaNZ.PasswordChar = '\0';
-            this.tbSenha_MegaNZ.PlaceholderText = "";
             this.tbSenha_MegaNZ.SelectedText = "";
-            this.tbSenha_MegaNZ.ShadowDecoration.Parent = this.tbSenha_MegaNZ;
             this.tbSenha_MegaNZ.Size = new System.Drawing.Size(152, 24);
             this.tbSenha_MegaNZ.TabIndex = 27;
             // 
@@ -1163,46 +951,30 @@
             // 
             this.tbEmail_MegaNZ.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbEmail_MegaNZ.DefaultText = "";
-            this.tbEmail_MegaNZ.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbEmail_MegaNZ.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbEmail_MegaNZ.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbEmail_MegaNZ.DisabledState.Parent = this.tbEmail_MegaNZ;
-            this.tbEmail_MegaNZ.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.tbEmail_MegaNZ.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbEmail_MegaNZ.FocusedState.Parent = this.tbEmail_MegaNZ;
             this.tbEmail_MegaNZ.ForeColor = System.Drawing.Color.Black;
-            this.tbEmail_MegaNZ.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbEmail_MegaNZ.HoverState.Parent = this.tbEmail_MegaNZ;
             this.tbEmail_MegaNZ.Location = new System.Drawing.Point(67, 47);
             this.tbEmail_MegaNZ.Name = "tbEmail_MegaNZ";
             this.tbEmail_MegaNZ.PasswordChar = '\0';
-            this.tbEmail_MegaNZ.PlaceholderText = "";
             this.tbEmail_MegaNZ.SelectedText = "";
-            this.tbEmail_MegaNZ.ShadowDecoration.Parent = this.tbEmail_MegaNZ;
             this.tbEmail_MegaNZ.Size = new System.Drawing.Size(152, 24);
             this.tbEmail_MegaNZ.TabIndex = 25;
             // 
             // btnSalvar
             // 
-            this.btnSalvar.CheckedState.Parent = this.btnSalvar;
             this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalvar.CustomImages.Parent = this.btnSalvar;
-            this.btnSalvar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnSalvar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.HoverState.Parent = this.btnSalvar;
             this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
             this.btnSalvar.Location = new System.Drawing.Point(510, 513);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.ShadowDecoration.Parent = this.btnSalvar;
             this.btnSalvar.Size = new System.Drawing.Size(58, 39);
             this.btnSalvar.TabIndex = 10;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // bunifuElipseBtnSalvar
             // 
-            this.bunifuElipseBtnSalvar.ElipseRadius = 15;
-            this.bunifuElipseBtnSalvar.TargetControl = this.btnSalvar;
             // 
             // label1
             // 
@@ -1217,8 +989,6 @@
             // 
             // bunifuElipseBtnBuscarChatID
             // 
-            this.bunifuElipseBtnBuscarChatID.ElipseRadius = 10;
-            this.bunifuElipseBtnBuscarChatID.TargetControl = this.btnBuscarChatID_Telegram;
             // 
             // UCIntegracoes
             // 
@@ -1260,68 +1030,68 @@
 
         #endregion
 
-        private MetroFramework.Controls.MetroTabControl tbControl;
-        private MetroFramework.Controls.MetroTabPage metroTabPage2;
-        private MetroFramework.Controls.MetroTabPage metroTabPage1;
-        private Guna.UI2.WinForms.Guna2TileButton btnSalvar;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxTelegram;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxEmail;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxMega;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBtnSalvar;
+        private System.Windows.Forms.TabControl tbControl;
+        private System.Windows.Forms.TabPage metroTabPage2;
+        private System.Windows.Forms.TabPage metroTabPage1;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.CheckBox chbxTelegram;
+        private System.Windows.Forms.CheckBox chbxEmail;
+        private System.Windows.Forms.CheckBox chbxMega;
+        private System.ComponentModel.Component bunifuElipseBtnSalvar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox gpbxMega;
         private System.Windows.Forms.Panel panel2;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxFTP;
+        private System.Windows.Forms.CheckBox chbxFTP;
         private System.Windows.Forms.GroupBox gpbxFTP;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.GroupBox gpbxEmail;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.GroupBox gpbxTelegram;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox tbHost_FTP;
+        private System.Windows.Forms.TextBox tbHost_FTP;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox tbSenha_FTP;
+        private System.Windows.Forms.TextBox tbSenha_FTP;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2TextBox tbUsuario_FTP;
+        private System.Windows.Forms.TextBox tbUsuario_FTP;
         private System.Windows.Forms.Label label8;
-        private Guna.UI2.WinForms.Guna2NumericUpDown DiasExcluirBackupsAntigos_FTP;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxExcluiBackupsAntigos_FTP;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownPorta_FTP;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxPassivo_FTP;
+        private System.Windows.Forms.NumericUpDown DiasExcluirBackupsAntigos_FTP;
+        private System.Windows.Forms.CheckBox chbxExcluiBackupsAntigos_FTP;
+        private System.Windows.Forms.NumericUpDown nmUpDownPorta_FTP;
+        private System.Windows.Forms.CheckBox chbxPassivo_FTP;
         private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2TextBox tbSenha_MegaNZ;
+        private System.Windows.Forms.TextBox tbSenha_MegaNZ;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2TextBox tbEmail_MegaNZ;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxSSL_Email;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownPorta_Email;
+        private System.Windows.Forms.TextBox tbEmail_MegaNZ;
+        private System.Windows.Forms.CheckBox chbxSSL_Email;
+        private System.Windows.Forms.NumericUpDown nmUpDownPorta_Email;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private Guna.UI2.WinForms.Guna2TextBox tbSenha_Email;
+        private System.Windows.Forms.TextBox tbSenha_Email;
         private System.Windows.Forms.Label label13;
-        private Guna.UI2.WinForms.Guna2TextBox tbUsuario_Email;
+        private System.Windows.Forms.TextBox tbUsuario_Email;
         private System.Windows.Forms.Label label14;
-        private Guna.UI2.WinForms.Guna2TextBox tbHost_Email;
+        private System.Windows.Forms.TextBox tbHost_Email;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
-        private Guna.UI2.WinForms.Guna2TextBox tbDestinatarios_Email;
+        private System.Windows.Forms.TextBox tbDestinatarios_Email;
         private System.Windows.Forms.Label label15;
-        private Guna.UI2.WinForms.Guna2TextBox tbAssunto_Email;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxLogBackup_Email;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxNotificacaoErro_Email;
+        private System.Windows.Forms.TextBox tbAssunto_Email;
+        private System.Windows.Forms.CheckBox chbxLogBackup_Email;
+        private System.Windows.Forms.CheckBox chbxNotificacaoErro_Email;
         private System.Windows.Forms.Label label18;
-        private Guna.UI2.WinForms.Guna2TextBox tbAccessTokenBot_Telegram;
+        private System.Windows.Forms.TextBox tbAccessTokenBot_Telegram;
         private System.Windows.Forms.Label label20;
-        private Guna.UI2.WinForms.Guna2TextBox tbChatIDDestino_Telegram;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxNotificacaoErro_Telegram;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxLogBackup_Telegram;
+        private System.Windows.Forms.TextBox tbChatIDDestino_Telegram;
+        private System.Windows.Forms.CheckBox chbxNotificacaoErro_Telegram;
+        private System.Windows.Forms.CheckBox chbxLogBackup_Telegram;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2TextBox tbPasta_MegaNZ;
+        private System.Windows.Forms.TextBox tbPasta_MegaNZ;
         private System.Windows.Forms.Label label9;
-        private Guna.UI2.WinForms.Guna2TextBox tbDiretorio_FTP;
-        private Guna.UI2.WinForms.Guna2TileButton btnBuscarChatID_Telegram;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBtnBuscarChatID;
+        private System.Windows.Forms.TextBox tbDiretorio_FTP;
+        private System.Windows.Forms.Button btnBuscarChatID_Telegram;
+        private System.ComponentModel.Component bunifuElipseBtnBuscarChatID;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.LinkLabel lblExplicacaoExclusaoBackupsAntigos;

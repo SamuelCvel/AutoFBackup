@@ -1,4 +1,3 @@
-﻿using Bunifu.Framework.UI;
 
 namespace FBackup
 {
@@ -37,28 +36,20 @@ namespace FBackup
             this.lblAutoFBackupVersoes = new System.Windows.Forms.LinkLabel();
             this.lblAutoFBackupWiki = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.bunifuSeparator1 = new System.Windows.Forms.Panel();
             this.lblMQFSFacebook = new System.Windows.Forms.LinkLabel();
             this.lblEdsonGregorio = new System.Windows.Forms.LinkLabel();
             this.lblMQFSYoutube = new System.Windows.Forms.LinkLabel();
-            this.btnConfiguracoes = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnIntegracoes = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnNovoBackup = new Guna.UI2.WinForms.Guna2TileButton();
-            this.btnDashboard = new Guna.UI2.WinForms.Guna2TileButton();
-            this.bunifuDragControlForm = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.bunifuElipseForm = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipsePanelControls = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipseBtnDashboard = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipseBtnNovoBackup = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipseBtnIntegracoes = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipseBtnConfiguracoes = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.btnConfiguracoes = new System.Windows.Forms.Button();
+            this.btnIntegracoes = new System.Windows.Forms.Button();
+            this.btnNovoBackup = new System.Windows.Forms.Button();
+            this.btnDashboard = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblVersaoAutoFBackup = new System.Windows.Forms.Label();
             this.lblSair = new System.Windows.Forms.Label();
             this.lblMinimizar = new System.Windows.Forms.Label();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
-            this.btnAtualizarApp = new Guna.UI2.WinForms.Guna2TileButton();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.btnAtualizarApp = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -126,14 +117,10 @@ namespace FBackup
             // bunifuSeparator1
             // 
             this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuSeparator1.LineThickness = 1;
             this.bunifuSeparator1.Location = new System.Drawing.Point(-2, 368);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(223, 10);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(223, 1);
             this.bunifuSeparator1.TabIndex = 15;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
             // 
             // lblMQFSFacebook
             // 
@@ -171,17 +158,11 @@ namespace FBackup
             // 
             // btnConfiguracoes
             // 
-            this.btnConfiguracoes.CheckedState.Parent = this.btnConfiguracoes;
             this.btnConfiguracoes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnConfiguracoes.CustomImages.Parent = this.btnConfiguracoes;
-            this.btnConfiguracoes.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnConfiguracoes.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnConfiguracoes.ForeColor = System.Drawing.Color.White;
-            this.btnConfiguracoes.HoverState.Parent = this.btnConfiguracoes;
-            this.btnConfiguracoes.Image = ((System.Drawing.Image)(resources.GetObject("btnConfiguracoes.Image")));
             this.btnConfiguracoes.Location = new System.Drawing.Point(119, 102);
             this.btnConfiguracoes.Name = "btnConfiguracoes";
-            this.btnConfiguracoes.ShadowDecoration.Parent = this.btnConfiguracoes;
             this.btnConfiguracoes.Size = new System.Drawing.Size(85, 64);
             this.btnConfiguracoes.TabIndex = 11;
             this.btnConfiguracoes.Text = "Configurações";
@@ -189,17 +170,11 @@ namespace FBackup
             // 
             // btnIntegracoes
             // 
-            this.btnIntegracoes.CheckedState.Parent = this.btnIntegracoes;
             this.btnIntegracoes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnIntegracoes.CustomImages.Parent = this.btnIntegracoes;
-            this.btnIntegracoes.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnIntegracoes.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnIntegracoes.ForeColor = System.Drawing.Color.White;
-            this.btnIntegracoes.HoverState.Parent = this.btnIntegracoes;
-            this.btnIntegracoes.Image = ((System.Drawing.Image)(resources.GetObject("btnIntegracoes.Image")));
             this.btnIntegracoes.Location = new System.Drawing.Point(22, 102);
             this.btnIntegracoes.Name = "btnIntegracoes";
-            this.btnIntegracoes.ShadowDecoration.Parent = this.btnIntegracoes;
             this.btnIntegracoes.Size = new System.Drawing.Size(85, 64);
             this.btnIntegracoes.TabIndex = 10;
             this.btnIntegracoes.Text = "Integrações";
@@ -207,17 +182,11 @@ namespace FBackup
             // 
             // btnNovoBackup
             // 
-            this.btnNovoBackup.CheckedState.Parent = this.btnNovoBackup;
             this.btnNovoBackup.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNovoBackup.CustomImages.Parent = this.btnNovoBackup;
-            this.btnNovoBackup.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnNovoBackup.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnNovoBackup.ForeColor = System.Drawing.Color.White;
-            this.btnNovoBackup.HoverState.Parent = this.btnNovoBackup;
-            this.btnNovoBackup.Image = ((System.Drawing.Image)(resources.GetObject("btnNovoBackup.Image")));
             this.btnNovoBackup.Location = new System.Drawing.Point(119, 32);
             this.btnNovoBackup.Name = "btnNovoBackup";
-            this.btnNovoBackup.ShadowDecoration.Parent = this.btnNovoBackup;
             this.btnNovoBackup.Size = new System.Drawing.Size(85, 64);
             this.btnNovoBackup.TabIndex = 9;
             this.btnNovoBackup.Text = "Novo Backup";
@@ -225,17 +194,11 @@ namespace FBackup
             // 
             // btnDashboard
             // 
-            this.btnDashboard.CheckedState.Parent = this.btnDashboard;
             this.btnDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDashboard.CustomImages.Parent = this.btnDashboard;
-            this.btnDashboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
-            this.btnDashboard.HoverState.Parent = this.btnDashboard;
-            this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
             this.btnDashboard.Location = new System.Drawing.Point(22, 32);
             this.btnDashboard.Name = "btnDashboard";
-            this.btnDashboard.ShadowDecoration.Parent = this.btnDashboard;
             this.btnDashboard.Size = new System.Drawing.Size(85, 64);
             this.btnDashboard.TabIndex = 8;
             this.btnDashboard.Text = "Dashboard";
@@ -250,33 +213,21 @@ namespace FBackup
             // 
             // bunifuElipseForm
             // 
-            this.bunifuElipseForm.ElipseRadius = 5;
-            this.bunifuElipseForm.TargetControl = this;
             // 
             // bunifuElipsePanelControls
             // 
-            this.bunifuElipsePanelControls.ElipseRadius = 20;
-            this.bunifuElipsePanelControls.TargetControl = this.pnlControls;
             // 
             // bunifuElipseBtnDashboard
             // 
-            this.bunifuElipseBtnDashboard.ElipseRadius = 10;
-            this.bunifuElipseBtnDashboard.TargetControl = this.btnDashboard;
             // 
             // bunifuElipseBtnNovoBackup
             // 
-            this.bunifuElipseBtnNovoBackup.ElipseRadius = 10;
-            this.bunifuElipseBtnNovoBackup.TargetControl = this.btnNovoBackup;
             // 
             // bunifuElipseBtnIntegracoes
             // 
-            this.bunifuElipseBtnIntegracoes.ElipseRadius = 10;
-            this.bunifuElipseBtnIntegracoes.TargetControl = this.btnIntegracoes;
             // 
             // bunifuElipseBtnConfiguracoes
             // 
-            this.bunifuElipseBtnConfiguracoes.ElipseRadius = 10;
-            this.bunifuElipseBtnConfiguracoes.TargetControl = this.btnConfiguracoes;
             // 
             // label1
             // 
@@ -331,17 +282,11 @@ namespace FBackup
             // 
             // btnAtualizarApp
             // 
-            this.btnAtualizarApp.CheckedState.Parent = this.btnAtualizarApp;
             this.btnAtualizarApp.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAtualizarApp.CustomImages.Parent = this.btnAtualizarApp;
-            this.btnAtualizarApp.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnAtualizarApp.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAtualizarApp.ForeColor = System.Drawing.Color.White;
-            this.btnAtualizarApp.HoverState.Parent = this.btnAtualizarApp;
-            this.btnAtualizarApp.Image = ((System.Drawing.Image)(resources.GetObject("btnAtualizarApp.Image")));
             this.btnAtualizarApp.Location = new System.Drawing.Point(119, 172);
             this.btnAtualizarApp.Name = "btnAtualizarApp";
-            this.btnAtualizarApp.ShadowDecoration.Parent = this.btnAtualizarApp;
             this.btnAtualizarApp.Size = new System.Drawing.Size(85, 64);
             this.btnAtualizarApp.TabIndex = 19;
             this.btnAtualizarApp.Text = "Atualizar App";
@@ -349,8 +294,6 @@ namespace FBackup
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 10;
-            this.bunifuElipse1.TargetControl = this.btnAtualizarApp;
             // 
             // frmMain
             // 
@@ -380,17 +323,10 @@ namespace FBackup
         #endregion
         private System.Windows.Forms.Panel pnlControls;
         private System.Windows.Forms.Panel panel2;
-        private BunifuDragControl bunifuDragControlForm;
-        private BunifuElipse bunifuElipseForm;
-        private BunifuElipse bunifuElipsePanelControls;
-        private BunifuElipse bunifuElipseBtnDashboard;
-        private BunifuElipse bunifuElipseBtnNovoBackup;
-        private BunifuElipse bunifuElipseBtnIntegracoes;
-        private BunifuElipse bunifuElipseBtnConfiguracoes;
-        private Guna.UI2.WinForms.Guna2TileButton btnConfiguracoes;
-        private Guna.UI2.WinForms.Guna2TileButton btnIntegracoes;
-        private Guna.UI2.WinForms.Guna2TileButton btnNovoBackup;
-        private Guna.UI2.WinForms.Guna2TileButton btnDashboard;
+        private System.Windows.Forms.Button btnConfiguracoes;
+        private System.Windows.Forms.Button btnIntegracoes;
+        private System.Windows.Forms.Button btnNovoBackup;
+        private System.Windows.Forms.Button btnDashboard;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblVersaoAutoFBackup;
         private System.Windows.Forms.Label lblSair;
@@ -400,11 +336,10 @@ namespace FBackup
         private System.Windows.Forms.LinkLabel lblEdsonGregorio;
         private System.Windows.Forms.LinkLabel lblMQFSYoutube;
         private System.Windows.Forms.Label label2;
-        private BunifuSeparator bunifuSeparator1;
+        private System.Windows.Forms.Panel bunifuSeparator1;
         private System.Windows.Forms.LinkLabel lblAutoFBackupVersoes;
         private System.Windows.Forms.LinkLabel lblAutoFBackupWiki;
-        private Guna.UI2.WinForms.Guna2TileButton btnAtualizarApp;
-        private BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Button btnAtualizarApp;
     }
 }
 
