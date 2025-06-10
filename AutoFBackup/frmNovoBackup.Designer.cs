@@ -30,129 +30,128 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNovoBackup));
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse1 = new System.ComponentModel.Component(this.components);
             this.label4 = new System.Windows.Forms.Label();
-            this.tbControl = new MetroFramework.Controls.MetroTabControl();
-            this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
+            this.tbControl = new System.Windows.Forms.TabControl();
+            this.metroTabPage4 = new System.Windows.Forms.TabPage();
             this.lblExplicacaoIdentificador = new System.Windows.Forms.LinkLabel();
             this.label33 = new System.Windows.Forms.Label();
-            this.tbIdentificador_Servidor = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbIdentificador_Servidor = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label32 = new System.Windows.Forms.Label();
             this.gpbxSemanalmente = new System.Windows.Forms.GroupBox();
             this.label29 = new System.Windows.Forms.Label();
-            this.nmUpDownHorasFreqSemanal = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.nmUpDownMinutosFreqSemanal = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.nmUpDownHorasFreqSemanal = new System.Windows.Forms.NumericUpDown();
+            this.nmUpDownMinutosFreqSemanal = new System.Windows.Forms.NumericUpDown();
             this.lstBoxDiasSemanaFreqSemanal = new System.Windows.Forms.CheckedListBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.gpbxDiariamente = new System.Windows.Forms.GroupBox();
             this.label28 = new System.Windows.Forms.Label();
-            this.nmUpDownMinutosFreqDiaria = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.nmUpDownMinutosFreqDiaria = new System.Windows.Forms.NumericUpDown();
             this.label20 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.nmUpDownHorasFreqDiaria = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.nmUpDownHorasFreqDiaria = new System.Windows.Forms.NumericUpDown();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label30 = new System.Windows.Forms.Label();
             this.gpbxPorHora = new System.Windows.Forms.GroupBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.nmUpDownHorasFreqPorHora = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.nmUpDownHorasFreqPorHora = new System.Windows.Forms.NumericUpDown();
+            this.bunifuSeparator1 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
-            this.dpDownFrequenciaBackups = new Bunifu.Framework.UI.BunifuDropdown();
-            this.btnEscolherBancoDeDados = new Guna.UI2.WinForms.Guna2TileButton();
+            this.dpDownFrequenciaBackups = new System.Windows.Forms.ComboBox();
+            this.btnEscolherBancoDeDados = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
-            this.tbDiretorioBancoDeDados_Servidor = new Guna.UI2.WinForms.Guna2TextBox();
-            this.nmUpDownPorta_Servidor = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.tbDiretorioBancoDeDados_Servidor = new System.Windows.Forms.TextBox();
+            this.nmUpDownPorta_Servidor = new System.Windows.Forms.NumericUpDown();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.tbSenha_Servidor = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbSenha_Servidor = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.tbUsuario_Servidor = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbUsuario_Servidor = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.tbServidor_Servidor = new Guna.UI2.WinForms.Guna2TextBox();
-            this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
+            this.tbServidor_Servidor = new System.Windows.Forms.TextBox();
+            this.metroTabPage2 = new System.Windows.Forms.TabPage();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.chbxExecutaGFIX = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxExecutaGFIX = new System.Windows.Forms.CheckBox();
             this.lblAvisoGfix = new System.Windows.Forms.LinkLabel();
             this.gpbxGFIX = new System.Windows.Forms.GroupBox();
             this.lblAvisoArgumentosGfix = new System.Windows.Forms.LinkLabel();
-            this.tbArgumentosGFIX = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tbDiretorioGFIX = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnDiretorioGFIX = new Guna.UI2.WinForms.Guna2TileButton();
+            this.tbArgumentosGFIX = new System.Windows.Forms.TextBox();
+            this.tbDiretorioGFIX = new System.Windows.Forms.TextBox();
+            this.btnDiretorioGFIX = new System.Windows.Forms.Button();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.lblExplicacaoFlags = new System.Windows.Forms.LinkLabel();
             this.label8 = new System.Windows.Forms.Label();
-            this.nmUpDownDiasExcluirBackupsAntigos = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.chbxExcluirBackupsAntigos = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.nmUpDownDiasExcluirBackupsAntigos = new System.Windows.Forms.NumericUpDown();
+            this.chbxExcluirBackupsAntigos = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.tbArgumentosPosBackup = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnDiretorioAppPosBackup = new Guna.UI2.WinForms.Guna2TileButton();
+            this.tbArgumentosPosBackup = new System.Windows.Forms.TextBox();
+            this.btnDiretorioAppPosBackup = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.tbAplicativoPosBackup = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbAplicativoPosBackup = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.tbArgumentosPreBackup = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnDiretorioAppPreBackup = new Guna.UI2.WinForms.Guna2TileButton();
+            this.tbArgumentosPreBackup = new System.Windows.Forms.TextBox();
+            this.btnDiretorioAppPreBackup = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.tbAplicativoPreBackup = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbAplicativoPreBackup = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lstBoxFlagsBackup = new System.Windows.Forms.CheckedListBox();
-            this.btnDiretorioBackups = new Guna.UI2.WinForms.Guna2TileButton();
+            this.btnDiretorioBackups = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.tbDiretorioBackups = new Guna.UI2.WinForms.Guna2TextBox();
-            this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
+            this.tbDiretorioBackups = new System.Windows.Forms.TextBox();
+            this.metroTabPage1 = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.chbxEmail = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxEmail = new System.Windows.Forms.CheckBox();
             this.gpbxEmail = new System.Windows.Forms.GroupBox();
-            this.tbDestinatarios_Email = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tbAssunto_Email = new Guna.UI2.WinForms.Guna2TextBox();
-            this.chbxNotificacaoErro_Email = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.chbxLogBackup_Email = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.tbDestinatarios_Email = new System.Windows.Forms.TextBox();
+            this.tbAssunto_Email = new System.Windows.Forms.TextBox();
+            this.chbxNotificacaoErro_Email = new System.Windows.Forms.CheckBox();
+            this.chbxLogBackup_Email = new System.Windows.Forms.CheckBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.chbxTelegram = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxTelegram = new System.Windows.Forms.CheckBox();
             this.gpbxTelegram = new System.Windows.Forms.GroupBox();
-            this.btnBuscarChatID = new Guna.UI2.WinForms.Guna2TileButton();
-            this.tbChatIDDestino_Telegram = new Guna.UI2.WinForms.Guna2TextBox();
-            this.chbxNotificacaoErro_Telegram = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.chbxLogBackup_Telegram = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.btnBuscarChatID = new System.Windows.Forms.Button();
+            this.tbChatIDDestino_Telegram = new System.Windows.Forms.TextBox();
+            this.chbxNotificacaoErro_Telegram = new System.Windows.Forms.CheckBox();
+            this.chbxLogBackup_Telegram = new System.Windows.Forms.CheckBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
+            this.metroTabPage3 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.chbxFTP = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxFTP = new System.Windows.Forms.CheckBox();
             this.gpbxFTP = new System.Windows.Forms.GroupBox();
             this.lblExplicacaoExclusaoBackupsAntigos = new System.Windows.Forms.LinkLabel();
             this.label34 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.DiasExcluirBackupsAntigos_FTP = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.chbxExcluiBackupsAntigos_FTP = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.DiasExcluirBackupsAntigos_FTP = new System.Windows.Forms.NumericUpDown();
+            this.chbxExcluiBackupsAntigos_FTP = new System.Windows.Forms.CheckBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.tbDiretorio_FTP = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbDiretorio_FTP = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.chbxMega = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.chbxMega = new System.Windows.Forms.CheckBox();
             this.gpbxMega = new System.Windows.Forms.GroupBox();
             this.label35 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.tbPasta_MegaNZ = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnSalvar = new Guna.UI2.WinForms.Guna2TileButton();
-            this.bunifuElipseBtnSalvar = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.btnFechar = new Guna.UI2.WinForms.Guna2TileButton();
-            this.bunifuElipseBtnFechar = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipseBtnDiretorioBackups = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipseBtnAppPreBackup = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipseBtnAppPosBackup = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuSnackbar1 = new Bunifu.UI.WinForms.BunifuSnackbar(this.components);
-            this.bunifuElipseBtnDiretorioGFIX = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.chbxAguardarConclusaoAplicativoPreBackup = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.tbPasta_MegaNZ = new System.Windows.Forms.TextBox();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.bunifuElipseBtnSalvar = new System.ComponentModel.Component(this.components);
+            this.btnFechar = new System.Windows.Forms.Button();
+            this.bunifuElipseBtnFechar = new System.ComponentModel.Component(this.components);
+            this.bunifuElipse2 = new System.ComponentModel.Component(this.components);
+            this.bunifuElipseBtnDiretorioBackups = new System.ComponentModel.Component(this.components);
+            this.bunifuElipseBtnAppPreBackup = new System.ComponentModel.Component(this.components);
+            this.bunifuElipseBtnAppPosBackup = new System.ComponentModel.Component(this.components);
+            this.bunifuSnackbar1 = new System.ComponentModel.Component(this.components);
+            this.bunifuElipseBtnDiretorioGFIX = new System.ComponentModel.Component(this.components);
+            this.bunifuElipse3 = new System.ComponentModel.Component(this.components);
+            this.chbxAguardarConclusaoAplicativoPreBackup = new System.Windows.Forms.CheckBox();
             this.tbControl.SuspendLayout();
             this.metroTabPage4.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -284,22 +283,12 @@
             // 
             this.tbIdentificador_Servidor.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbIdentificador_Servidor.DefaultText = "";
-            this.tbIdentificador_Servidor.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbIdentificador_Servidor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbIdentificador_Servidor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbIdentificador_Servidor.DisabledState.Parent = this.tbIdentificador_Servidor;
-            this.tbIdentificador_Servidor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbIdentificador_Servidor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbIdentificador_Servidor.FocusedState.Parent = this.tbIdentificador_Servidor;
             this.tbIdentificador_Servidor.ForeColor = System.Drawing.Color.Black;
-            this.tbIdentificador_Servidor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbIdentificador_Servidor.HoverState.Parent = this.tbIdentificador_Servidor;
             this.tbIdentificador_Servidor.Location = new System.Drawing.Point(115, 18);
             this.tbIdentificador_Servidor.Name = "tbIdentificador_Servidor";
             this.tbIdentificador_Servidor.PasswordChar = '\0';
-            this.tbIdentificador_Servidor.PlaceholderText = "";
             this.tbIdentificador_Servidor.SelectedText = "";
-            this.tbIdentificador_Servidor.ShadowDecoration.Parent = this.tbIdentificador_Servidor;
             this.tbIdentificador_Servidor.Size = new System.Drawing.Size(365, 24);
             this.tbIdentificador_Servidor.TabIndex = 65;
             // 
@@ -373,13 +362,6 @@
             // 
             this.nmUpDownHorasFreqSemanal.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownHorasFreqSemanal.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownHorasFreqSemanal.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownHorasFreqSemanal.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownHorasFreqSemanal.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownHorasFreqSemanal.DisabledState.Parent = this.nmUpDownHorasFreqSemanal;
-            this.nmUpDownHorasFreqSemanal.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownHorasFreqSemanal.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
-            this.nmUpDownHorasFreqSemanal.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownHorasFreqSemanal.FocusedState.Parent = this.nmUpDownHorasFreqSemanal;
             this.nmUpDownHorasFreqSemanal.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nmUpDownHorasFreqSemanal.ForeColor = System.Drawing.Color.Black;
@@ -390,22 +372,13 @@
             0,
             0});
             this.nmUpDownHorasFreqSemanal.Name = "nmUpDownHorasFreqSemanal";
-            this.nmUpDownHorasFreqSemanal.ShadowDecoration.Parent = this.nmUpDownHorasFreqSemanal;
             this.nmUpDownHorasFreqSemanal.Size = new System.Drawing.Size(50, 26);
             this.nmUpDownHorasFreqSemanal.TabIndex = 45;
-            this.nmUpDownHorasFreqSemanal.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             // 
             // nmUpDownMinutosFreqSemanal
             // 
             this.nmUpDownMinutosFreqSemanal.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownMinutosFreqSemanal.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownMinutosFreqSemanal.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownMinutosFreqSemanal.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownMinutosFreqSemanal.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownMinutosFreqSemanal.DisabledState.Parent = this.nmUpDownMinutosFreqSemanal;
-            this.nmUpDownMinutosFreqSemanal.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownMinutosFreqSemanal.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
-            this.nmUpDownMinutosFreqSemanal.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownMinutosFreqSemanal.FocusedState.Parent = this.nmUpDownMinutosFreqSemanal;
             this.nmUpDownMinutosFreqSemanal.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nmUpDownMinutosFreqSemanal.ForeColor = System.Drawing.Color.Black;
@@ -416,10 +389,8 @@
             0,
             0});
             this.nmUpDownMinutosFreqSemanal.Name = "nmUpDownMinutosFreqSemanal";
-            this.nmUpDownMinutosFreqSemanal.ShadowDecoration.Parent = this.nmUpDownMinutosFreqSemanal;
             this.nmUpDownMinutosFreqSemanal.Size = new System.Drawing.Size(50, 26);
             this.nmUpDownMinutosFreqSemanal.TabIndex = 55;
-            this.nmUpDownMinutosFreqSemanal.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             // 
             // lstBoxDiasSemanaFreqSemanal
             // 
@@ -490,13 +461,6 @@
             // 
             this.nmUpDownMinutosFreqDiaria.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownMinutosFreqDiaria.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownMinutosFreqDiaria.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownMinutosFreqDiaria.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownMinutosFreqDiaria.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownMinutosFreqDiaria.DisabledState.Parent = this.nmUpDownMinutosFreqDiaria;
-            this.nmUpDownMinutosFreqDiaria.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownMinutosFreqDiaria.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
-            this.nmUpDownMinutosFreqDiaria.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownMinutosFreqDiaria.FocusedState.Parent = this.nmUpDownMinutosFreqDiaria;
             this.nmUpDownMinutosFreqDiaria.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nmUpDownMinutosFreqDiaria.ForeColor = System.Drawing.Color.Black;
@@ -507,10 +471,8 @@
             0,
             0});
             this.nmUpDownMinutosFreqDiaria.Name = "nmUpDownMinutosFreqDiaria";
-            this.nmUpDownMinutosFreqDiaria.ShadowDecoration.Parent = this.nmUpDownMinutosFreqDiaria;
             this.nmUpDownMinutosFreqDiaria.Size = new System.Drawing.Size(50, 26);
             this.nmUpDownMinutosFreqDiaria.TabIndex = 53;
-            this.nmUpDownMinutosFreqDiaria.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             // 
             // label20
             // 
@@ -538,13 +500,6 @@
             // 
             this.nmUpDownHorasFreqDiaria.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownHorasFreqDiaria.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownHorasFreqDiaria.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownHorasFreqDiaria.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownHorasFreqDiaria.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownHorasFreqDiaria.DisabledState.Parent = this.nmUpDownHorasFreqDiaria;
-            this.nmUpDownHorasFreqDiaria.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownHorasFreqDiaria.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
-            this.nmUpDownHorasFreqDiaria.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownHorasFreqDiaria.FocusedState.Parent = this.nmUpDownHorasFreqDiaria;
             this.nmUpDownHorasFreqDiaria.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nmUpDownHorasFreqDiaria.ForeColor = System.Drawing.Color.Black;
@@ -555,10 +510,8 @@
             0,
             0});
             this.nmUpDownHorasFreqDiaria.Name = "nmUpDownHorasFreqDiaria";
-            this.nmUpDownHorasFreqDiaria.ShadowDecoration.Parent = this.nmUpDownHorasFreqDiaria;
             this.nmUpDownHorasFreqDiaria.Size = new System.Drawing.Size(50, 26);
             this.nmUpDownHorasFreqDiaria.TabIndex = 52;
-            this.nmUpDownHorasFreqDiaria.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             // 
             // panel5
             // 
@@ -618,13 +571,6 @@
             // 
             this.nmUpDownHorasFreqPorHora.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownHorasFreqPorHora.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownHorasFreqPorHora.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownHorasFreqPorHora.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownHorasFreqPorHora.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownHorasFreqPorHora.DisabledState.Parent = this.nmUpDownHorasFreqPorHora;
-            this.nmUpDownHorasFreqPorHora.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownHorasFreqPorHora.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
-            this.nmUpDownHorasFreqPorHora.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownHorasFreqPorHora.FocusedState.Parent = this.nmUpDownHorasFreqPorHora;
             this.nmUpDownHorasFreqPorHora.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nmUpDownHorasFreqPorHora.ForeColor = System.Drawing.Color.Black;
@@ -635,10 +581,8 @@
             0,
             0});
             this.nmUpDownHorasFreqPorHora.Name = "nmUpDownHorasFreqPorHora";
-            this.nmUpDownHorasFreqPorHora.ShadowDecoration.Parent = this.nmUpDownHorasFreqPorHora;
             this.nmUpDownHorasFreqPorHora.Size = new System.Drawing.Size(68, 26);
             this.nmUpDownHorasFreqPorHora.TabIndex = 41;
-            this.nmUpDownHorasFreqPorHora.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.nmUpDownHorasFreqPorHora.Value = new decimal(new int[] {
             1,
             0,
@@ -690,17 +634,11 @@
             // 
             // btnEscolherBancoDeDados
             // 
-            this.btnEscolherBancoDeDados.CheckedState.Parent = this.btnEscolherBancoDeDados;
             this.btnEscolherBancoDeDados.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEscolherBancoDeDados.CustomImages.Parent = this.btnEscolherBancoDeDados;
-            this.btnEscolherBancoDeDados.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnEscolherBancoDeDados.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEscolherBancoDeDados.ForeColor = System.Drawing.Color.White;
-            this.btnEscolherBancoDeDados.HoverState.Parent = this.btnEscolherBancoDeDados;
-            this.btnEscolherBancoDeDados.Image = ((System.Drawing.Image)(resources.GetObject("btnEscolherBancoDeDados.Image")));
             this.btnEscolherBancoDeDados.Location = new System.Drawing.Point(486, 106);
             this.btnEscolherBancoDeDados.Name = "btnEscolherBancoDeDados";
-            this.btnEscolherBancoDeDados.ShadowDecoration.Parent = this.btnEscolherBancoDeDados;
             this.btnEscolherBancoDeDados.Size = new System.Drawing.Size(46, 24);
             this.btnEscolherBancoDeDados.TabIndex = 55;
             this.btnEscolherBancoDeDados.Click += new System.EventHandler(this.btnEscolherBancoDeDados_Click);
@@ -720,23 +658,13 @@
             // 
             this.tbDiretorioBancoDeDados_Servidor.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbDiretorioBancoDeDados_Servidor.DefaultText = "";
-            this.tbDiretorioBancoDeDados_Servidor.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbDiretorioBancoDeDados_Servidor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbDiretorioBancoDeDados_Servidor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorioBancoDeDados_Servidor.DisabledState.Parent = this.tbDiretorioBancoDeDados_Servidor;
-            this.tbDiretorioBancoDeDados_Servidor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorioBancoDeDados_Servidor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbDiretorioBancoDeDados_Servidor.FocusedState.Parent = this.tbDiretorioBancoDeDados_Servidor;
             this.tbDiretorioBancoDeDados_Servidor.ForeColor = System.Drawing.Color.Black;
-            this.tbDiretorioBancoDeDados_Servidor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbDiretorioBancoDeDados_Servidor.HoverState.Parent = this.tbDiretorioBancoDeDados_Servidor;
             this.tbDiretorioBancoDeDados_Servidor.Location = new System.Drawing.Point(115, 106);
             this.tbDiretorioBancoDeDados_Servidor.Name = "tbDiretorioBancoDeDados_Servidor";
             this.tbDiretorioBancoDeDados_Servidor.PasswordChar = '\0';
-            this.tbDiretorioBancoDeDados_Servidor.PlaceholderText = "";
             this.tbDiretorioBancoDeDados_Servidor.ReadOnly = true;
             this.tbDiretorioBancoDeDados_Servidor.SelectedText = "";
-            this.tbDiretorioBancoDeDados_Servidor.ShadowDecoration.Parent = this.tbDiretorioBancoDeDados_Servidor;
             this.tbDiretorioBancoDeDados_Servidor.Size = new System.Drawing.Size(365, 24);
             this.tbDiretorioBancoDeDados_Servidor.TabIndex = 53;
             // 
@@ -744,13 +672,6 @@
             // 
             this.nmUpDownPorta_Servidor.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownPorta_Servidor.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownPorta_Servidor.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownPorta_Servidor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownPorta_Servidor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownPorta_Servidor.DisabledState.Parent = this.nmUpDownPorta_Servidor;
-            this.nmUpDownPorta_Servidor.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownPorta_Servidor.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
-            this.nmUpDownPorta_Servidor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownPorta_Servidor.FocusedState.Parent = this.nmUpDownPorta_Servidor;
             this.nmUpDownPorta_Servidor.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nmUpDownPorta_Servidor.ForeColor = System.Drawing.Color.Black;
@@ -766,10 +687,8 @@
             0,
             0});
             this.nmUpDownPorta_Servidor.Name = "nmUpDownPorta_Servidor";
-            this.nmUpDownPorta_Servidor.ShadowDecoration.Parent = this.nmUpDownPorta_Servidor;
             this.nmUpDownPorta_Servidor.Size = new System.Drawing.Size(68, 26);
             this.nmUpDownPorta_Servidor.TabIndex = 52;
-            this.nmUpDownPorta_Servidor.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.nmUpDownPorta_Servidor.Value = new decimal(new int[] {
             1,
             0,
@@ -802,22 +721,12 @@
             // 
             this.tbSenha_Servidor.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbSenha_Servidor.DefaultText = "";
-            this.tbSenha_Servidor.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbSenha_Servidor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbSenha_Servidor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbSenha_Servidor.DisabledState.Parent = this.tbSenha_Servidor;
-            this.tbSenha_Servidor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbSenha_Servidor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbSenha_Servidor.FocusedState.Parent = this.tbSenha_Servidor;
             this.tbSenha_Servidor.ForeColor = System.Drawing.Color.Black;
-            this.tbSenha_Servidor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbSenha_Servidor.HoverState.Parent = this.tbSenha_Servidor;
             this.tbSenha_Servidor.Location = new System.Drawing.Point(328, 76);
             this.tbSenha_Servidor.Name = "tbSenha_Servidor";
             this.tbSenha_Servidor.PasswordChar = '\0';
-            this.tbSenha_Servidor.PlaceholderText = "";
             this.tbSenha_Servidor.SelectedText = "";
-            this.tbSenha_Servidor.ShadowDecoration.Parent = this.tbSenha_Servidor;
             this.tbSenha_Servidor.Size = new System.Drawing.Size(152, 24);
             this.tbSenha_Servidor.TabIndex = 49;
             // 
@@ -836,22 +745,12 @@
             // 
             this.tbUsuario_Servidor.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbUsuario_Servidor.DefaultText = "";
-            this.tbUsuario_Servidor.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbUsuario_Servidor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbUsuario_Servidor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbUsuario_Servidor.DisabledState.Parent = this.tbUsuario_Servidor;
-            this.tbUsuario_Servidor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbUsuario_Servidor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbUsuario_Servidor.FocusedState.Parent = this.tbUsuario_Servidor;
             this.tbUsuario_Servidor.ForeColor = System.Drawing.Color.Black;
-            this.tbUsuario_Servidor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbUsuario_Servidor.HoverState.Parent = this.tbUsuario_Servidor;
             this.tbUsuario_Servidor.Location = new System.Drawing.Point(115, 76);
             this.tbUsuario_Servidor.Name = "tbUsuario_Servidor";
             this.tbUsuario_Servidor.PasswordChar = '\0';
-            this.tbUsuario_Servidor.PlaceholderText = "";
             this.tbUsuario_Servidor.SelectedText = "";
-            this.tbUsuario_Servidor.ShadowDecoration.Parent = this.tbUsuario_Servidor;
             this.tbUsuario_Servidor.Size = new System.Drawing.Size(152, 24);
             this.tbUsuario_Servidor.TabIndex = 47;
             // 
@@ -870,22 +769,12 @@
             // 
             this.tbServidor_Servidor.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbServidor_Servidor.DefaultText = "";
-            this.tbServidor_Servidor.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbServidor_Servidor.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbServidor_Servidor.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbServidor_Servidor.DisabledState.Parent = this.tbServidor_Servidor;
-            this.tbServidor_Servidor.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbServidor_Servidor.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbServidor_Servidor.FocusedState.Parent = this.tbServidor_Servidor;
             this.tbServidor_Servidor.ForeColor = System.Drawing.Color.Black;
-            this.tbServidor_Servidor.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbServidor_Servidor.HoverState.Parent = this.tbServidor_Servidor;
             this.tbServidor_Servidor.Location = new System.Drawing.Point(115, 48);
             this.tbServidor_Servidor.Name = "tbServidor_Servidor";
             this.tbServidor_Servidor.PasswordChar = '\0';
-            this.tbServidor_Servidor.PlaceholderText = "";
             this.tbServidor_Servidor.SelectedText = "";
-            this.tbServidor_Servidor.ShadowDecoration.Parent = this.tbServidor_Servidor;
             this.tbServidor_Servidor.Size = new System.Drawing.Size(152, 24);
             this.tbServidor_Servidor.TabIndex = 45;
             // 
@@ -939,10 +828,6 @@
             // 
             this.chbxExecutaGFIX.AutoSize = true;
             this.chbxExecutaGFIX.BackColor = System.Drawing.Color.Transparent;
-            this.chbxExecutaGFIX.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxExecutaGFIX.CheckedState.BorderRadius = 2;
-            this.chbxExecutaGFIX.CheckedState.BorderThickness = 0;
-            this.chbxExecutaGFIX.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxExecutaGFIX.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxExecutaGFIX.ForeColor = System.Drawing.Color.Black;
             this.chbxExecutaGFIX.Location = new System.Drawing.Point(3, 7);
@@ -950,10 +835,7 @@
             this.chbxExecutaGFIX.Size = new System.Drawing.Size(300, 17);
             this.chbxExecutaGFIX.TabIndex = 0;
             this.chbxExecutaGFIX.Text = "Executar GFIX Antes da Criação do Arquivo de Backup";
-            this.chbxExecutaGFIX.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxExecutaGFIX.UncheckedState.BorderRadius = 2;
-            this.chbxExecutaGFIX.UncheckedState.BorderThickness = 0;
-            this.chbxExecutaGFIX.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxExecutaGFIX.UseVisualStyleBackColor = false;
             this.chbxExecutaGFIX.CheckedChanged += new System.EventHandler(this.chbxExecutaGFIX_CheckedChanged);
             // 
@@ -1009,23 +891,13 @@
             // 
             this.tbArgumentosGFIX.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbArgumentosGFIX.DefaultText = "-mend -full -ignore";
-            this.tbArgumentosGFIX.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbArgumentosGFIX.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbArgumentosGFIX.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbArgumentosGFIX.DisabledState.Parent = this.tbArgumentosGFIX;
-            this.tbArgumentosGFIX.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbArgumentosGFIX.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbArgumentosGFIX.FocusedState.Parent = this.tbArgumentosGFIX;
             this.tbArgumentosGFIX.ForeColor = System.Drawing.Color.Black;
-            this.tbArgumentosGFIX.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbArgumentosGFIX.HoverState.Parent = this.tbArgumentosGFIX;
             this.tbArgumentosGFIX.Location = new System.Drawing.Point(84, 89);
             this.tbArgumentosGFIX.Name = "tbArgumentosGFIX";
             this.tbArgumentosGFIX.PasswordChar = '\0';
-            this.tbArgumentosGFIX.PlaceholderText = "";
             this.tbArgumentosGFIX.SelectedText = "";
             this.tbArgumentosGFIX.SelectionStart = 19;
-            this.tbArgumentosGFIX.ShadowDecoration.Parent = this.tbArgumentosGFIX;
             this.tbArgumentosGFIX.Size = new System.Drawing.Size(244, 24);
             this.tbArgumentosGFIX.TabIndex = 61;
             // 
@@ -1033,39 +905,23 @@
             // 
             this.tbDiretorioGFIX.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbDiretorioGFIX.DefaultText = "";
-            this.tbDiretorioGFIX.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbDiretorioGFIX.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbDiretorioGFIX.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorioGFIX.DisabledState.Parent = this.tbDiretorioGFIX;
-            this.tbDiretorioGFIX.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorioGFIX.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbDiretorioGFIX.FocusedState.Parent = this.tbDiretorioGFIX;
             this.tbDiretorioGFIX.ForeColor = System.Drawing.Color.Black;
-            this.tbDiretorioGFIX.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbDiretorioGFIX.HoverState.Parent = this.tbDiretorioGFIX;
             this.tbDiretorioGFIX.Location = new System.Drawing.Point(84, 43);
             this.tbDiretorioGFIX.Name = "tbDiretorioGFIX";
             this.tbDiretorioGFIX.PasswordChar = '\0';
-            this.tbDiretorioGFIX.PlaceholderText = "";
             this.tbDiretorioGFIX.ReadOnly = true;
             this.tbDiretorioGFIX.SelectedText = "";
-            this.tbDiretorioGFIX.ShadowDecoration.Parent = this.tbDiretorioGFIX;
             this.tbDiretorioGFIX.Size = new System.Drawing.Size(244, 24);
             this.tbDiretorioGFIX.TabIndex = 58;
             // 
             // btnDiretorioGFIX
             // 
-            this.btnDiretorioGFIX.CheckedState.Parent = this.btnDiretorioGFIX;
             this.btnDiretorioGFIX.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDiretorioGFIX.CustomImages.Parent = this.btnDiretorioGFIX;
-            this.btnDiretorioGFIX.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnDiretorioGFIX.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDiretorioGFIX.ForeColor = System.Drawing.Color.White;
-            this.btnDiretorioGFIX.HoverState.Parent = this.btnDiretorioGFIX;
-            this.btnDiretorioGFIX.Image = ((System.Drawing.Image)(resources.GetObject("btnDiretorioGFIX.Image")));
             this.btnDiretorioGFIX.Location = new System.Drawing.Point(334, 43);
             this.btnDiretorioGFIX.Name = "btnDiretorioGFIX";
-            this.btnDiretorioGFIX.ShadowDecoration.Parent = this.btnDiretorioGFIX;
             this.btnDiretorioGFIX.Size = new System.Drawing.Size(46, 24);
             this.btnDiretorioGFIX.TabIndex = 60;
             this.btnDiretorioGFIX.Click += new System.EventHandler(this.btnDiretorioGFIX_Click);
@@ -1121,13 +977,6 @@
             // 
             this.nmUpDownDiasExcluirBackupsAntigos.BackColor = System.Drawing.Color.Transparent;
             this.nmUpDownDiasExcluirBackupsAntigos.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.nmUpDownDiasExcluirBackupsAntigos.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.nmUpDownDiasExcluirBackupsAntigos.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.nmUpDownDiasExcluirBackupsAntigos.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.nmUpDownDiasExcluirBackupsAntigos.DisabledState.Parent = this.nmUpDownDiasExcluirBackupsAntigos;
-            this.nmUpDownDiasExcluirBackupsAntigos.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.nmUpDownDiasExcluirBackupsAntigos.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
-            this.nmUpDownDiasExcluirBackupsAntigos.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nmUpDownDiasExcluirBackupsAntigos.FocusedState.Parent = this.nmUpDownDiasExcluirBackupsAntigos;
             this.nmUpDownDiasExcluirBackupsAntigos.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nmUpDownDiasExcluirBackupsAntigos.ForeColor = System.Drawing.Color.Black;
@@ -1138,29 +987,20 @@
             0,
             0});
             this.nmUpDownDiasExcluirBackupsAntigos.Name = "nmUpDownDiasExcluirBackupsAntigos";
-            this.nmUpDownDiasExcluirBackupsAntigos.ShadowDecoration.Parent = this.nmUpDownDiasExcluirBackupsAntigos;
             this.nmUpDownDiasExcluirBackupsAntigos.Size = new System.Drawing.Size(63, 26);
             this.nmUpDownDiasExcluirBackupsAntigos.TabIndex = 52;
-            this.nmUpDownDiasExcluirBackupsAntigos.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             // 
             // chbxExcluirBackupsAntigos
             // 
             this.chbxExcluirBackupsAntigos.AutoSize = true;
             this.chbxExcluirBackupsAntigos.BackColor = System.Drawing.Color.Transparent;
-            this.chbxExcluirBackupsAntigos.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxExcluirBackupsAntigos.CheckedState.BorderRadius = 2;
-            this.chbxExcluirBackupsAntigos.CheckedState.BorderThickness = 0;
-            this.chbxExcluirBackupsAntigos.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxExcluirBackupsAntigos.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxExcluirBackupsAntigos.Location = new System.Drawing.Point(14, 489);
             this.chbxExcluirBackupsAntigos.Name = "chbxExcluirBackupsAntigos";
             this.chbxExcluirBackupsAntigos.Size = new System.Drawing.Size(257, 17);
             this.chbxExcluirBackupsAntigos.TabIndex = 51;
             this.chbxExcluirBackupsAntigos.Text = "Excluir Arquivos de Backup mais antigos que:";
-            this.chbxExcluirBackupsAntigos.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxExcluirBackupsAntigos.UncheckedState.BorderRadius = 2;
-            this.chbxExcluirBackupsAntigos.UncheckedState.BorderThickness = 0;
-            this.chbxExcluirBackupsAntigos.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxExcluirBackupsAntigos.UseVisualStyleBackColor = false;
             // 
             // label6
@@ -1178,38 +1018,22 @@
             // 
             this.tbArgumentosPosBackup.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbArgumentosPosBackup.DefaultText = "";
-            this.tbArgumentosPosBackup.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbArgumentosPosBackup.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbArgumentosPosBackup.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbArgumentosPosBackup.DisabledState.Parent = this.tbArgumentosPosBackup;
-            this.tbArgumentosPosBackup.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbArgumentosPosBackup.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbArgumentosPosBackup.FocusedState.Parent = this.tbArgumentosPosBackup;
             this.tbArgumentosPosBackup.ForeColor = System.Drawing.Color.Black;
-            this.tbArgumentosPosBackup.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbArgumentosPosBackup.HoverState.Parent = this.tbArgumentosPosBackup;
             this.tbArgumentosPosBackup.Location = new System.Drawing.Point(106, 447);
             this.tbArgumentosPosBackup.Name = "tbArgumentosPosBackup";
             this.tbArgumentosPosBackup.PasswordChar = '\0';
-            this.tbArgumentosPosBackup.PlaceholderText = "";
             this.tbArgumentosPosBackup.SelectedText = "";
-            this.tbArgumentosPosBackup.ShadowDecoration.Parent = this.tbArgumentosPosBackup;
             this.tbArgumentosPosBackup.Size = new System.Drawing.Size(456, 24);
             this.tbArgumentosPosBackup.TabIndex = 49;
             // 
             // btnDiretorioAppPosBackup
             // 
-            this.btnDiretorioAppPosBackup.CheckedState.Parent = this.btnDiretorioAppPosBackup;
             this.btnDiretorioAppPosBackup.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDiretorioAppPosBackup.CustomImages.Parent = this.btnDiretorioAppPosBackup;
-            this.btnDiretorioAppPosBackup.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnDiretorioAppPosBackup.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDiretorioAppPosBackup.ForeColor = System.Drawing.Color.White;
-            this.btnDiretorioAppPosBackup.HoverState.Parent = this.btnDiretorioAppPosBackup;
-            this.btnDiretorioAppPosBackup.Image = ((System.Drawing.Image)(resources.GetObject("btnDiretorioAppPosBackup.Image")));
             this.btnDiretorioAppPosBackup.Location = new System.Drawing.Point(516, 417);
             this.btnDiretorioAppPosBackup.Name = "btnDiretorioAppPosBackup";
-            this.btnDiretorioAppPosBackup.ShadowDecoration.Parent = this.btnDiretorioAppPosBackup;
             this.btnDiretorioAppPosBackup.Size = new System.Drawing.Size(46, 24);
             this.btnDiretorioAppPosBackup.TabIndex = 48;
             this.btnDiretorioAppPosBackup.Click += new System.EventHandler(this.btnDiretorioAppPosBackup_Click);
@@ -1230,22 +1054,12 @@
             // 
             this.tbAplicativoPosBackup.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbAplicativoPosBackup.DefaultText = "";
-            this.tbAplicativoPosBackup.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbAplicativoPosBackup.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbAplicativoPosBackup.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbAplicativoPosBackup.DisabledState.Parent = this.tbAplicativoPosBackup;
-            this.tbAplicativoPosBackup.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbAplicativoPosBackup.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbAplicativoPosBackup.FocusedState.Parent = this.tbAplicativoPosBackup;
             this.tbAplicativoPosBackup.ForeColor = System.Drawing.Color.Black;
-            this.tbAplicativoPosBackup.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbAplicativoPosBackup.HoverState.Parent = this.tbAplicativoPosBackup;
             this.tbAplicativoPosBackup.Location = new System.Drawing.Point(106, 417);
             this.tbAplicativoPosBackup.Name = "tbAplicativoPosBackup";
             this.tbAplicativoPosBackup.PasswordChar = '\0';
-            this.tbAplicativoPosBackup.PlaceholderText = "";
             this.tbAplicativoPosBackup.SelectedText = "";
-            this.tbAplicativoPosBackup.ShadowDecoration.Parent = this.tbAplicativoPosBackup;
             this.tbAplicativoPosBackup.Size = new System.Drawing.Size(392, 24);
             this.tbAplicativoPosBackup.TabIndex = 46;
             // 
@@ -1264,38 +1078,22 @@
             // 
             this.tbArgumentosPreBackup.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbArgumentosPreBackup.DefaultText = "";
-            this.tbArgumentosPreBackup.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbArgumentosPreBackup.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbArgumentosPreBackup.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbArgumentosPreBackup.DisabledState.Parent = this.tbArgumentosPreBackup;
-            this.tbArgumentosPreBackup.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbArgumentosPreBackup.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbArgumentosPreBackup.FocusedState.Parent = this.tbArgumentosPreBackup;
             this.tbArgumentosPreBackup.ForeColor = System.Drawing.Color.Black;
-            this.tbArgumentosPreBackup.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbArgumentosPreBackup.HoverState.Parent = this.tbArgumentosPreBackup;
             this.tbArgumentosPreBackup.Location = new System.Drawing.Point(106, 370);
             this.tbArgumentosPreBackup.Name = "tbArgumentosPreBackup";
             this.tbArgumentosPreBackup.PasswordChar = '\0';
-            this.tbArgumentosPreBackup.PlaceholderText = "";
             this.tbArgumentosPreBackup.SelectedText = "";
-            this.tbArgumentosPreBackup.ShadowDecoration.Parent = this.tbArgumentosPreBackup;
             this.tbArgumentosPreBackup.Size = new System.Drawing.Size(456, 24);
             this.tbArgumentosPreBackup.TabIndex = 44;
             // 
             // btnDiretorioAppPreBackup
             // 
-            this.btnDiretorioAppPreBackup.CheckedState.Parent = this.btnDiretorioAppPreBackup;
             this.btnDiretorioAppPreBackup.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDiretorioAppPreBackup.CustomImages.Parent = this.btnDiretorioAppPreBackup;
-            this.btnDiretorioAppPreBackup.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnDiretorioAppPreBackup.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDiretorioAppPreBackup.ForeColor = System.Drawing.Color.White;
-            this.btnDiretorioAppPreBackup.HoverState.Parent = this.btnDiretorioAppPreBackup;
-            this.btnDiretorioAppPreBackup.Image = ((System.Drawing.Image)(resources.GetObject("btnDiretorioAppPreBackup.Image")));
             this.btnDiretorioAppPreBackup.Location = new System.Drawing.Point(379, 341);
             this.btnDiretorioAppPreBackup.Name = "btnDiretorioAppPreBackup";
-            this.btnDiretorioAppPreBackup.ShadowDecoration.Parent = this.btnDiretorioAppPreBackup;
             this.btnDiretorioAppPreBackup.Size = new System.Drawing.Size(46, 24);
             this.btnDiretorioAppPreBackup.TabIndex = 43;
             this.btnDiretorioAppPreBackup.Click += new System.EventHandler(this.btnDiretorioAppPreBackup_Click);
@@ -1316,22 +1114,12 @@
             // 
             this.tbAplicativoPreBackup.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbAplicativoPreBackup.DefaultText = "";
-            this.tbAplicativoPreBackup.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbAplicativoPreBackup.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbAplicativoPreBackup.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbAplicativoPreBackup.DisabledState.Parent = this.tbAplicativoPreBackup;
-            this.tbAplicativoPreBackup.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbAplicativoPreBackup.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbAplicativoPreBackup.FocusedState.Parent = this.tbAplicativoPreBackup;
             this.tbAplicativoPreBackup.ForeColor = System.Drawing.Color.Black;
-            this.tbAplicativoPreBackup.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbAplicativoPreBackup.HoverState.Parent = this.tbAplicativoPreBackup;
             this.tbAplicativoPreBackup.Location = new System.Drawing.Point(106, 340);
             this.tbAplicativoPreBackup.Name = "tbAplicativoPreBackup";
             this.tbAplicativoPreBackup.PasswordChar = '\0';
-            this.tbAplicativoPreBackup.PlaceholderText = "";
             this.tbAplicativoPreBackup.SelectedText = "";
-            this.tbAplicativoPreBackup.ShadowDecoration.Parent = this.tbAplicativoPreBackup;
             this.tbAplicativoPreBackup.Size = new System.Drawing.Size(267, 24);
             this.tbAplicativoPreBackup.TabIndex = 41;
             // 
@@ -1367,17 +1155,11 @@
             // 
             // btnDiretorioBackups
             // 
-            this.btnDiretorioBackups.CheckedState.Parent = this.btnDiretorioBackups;
             this.btnDiretorioBackups.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnDiretorioBackups.CustomImages.Parent = this.btnDiretorioBackups;
-            this.btnDiretorioBackups.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnDiretorioBackups.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDiretorioBackups.ForeColor = System.Drawing.Color.White;
-            this.btnDiretorioBackups.HoverState.Parent = this.btnDiretorioBackups;
-            this.btnDiretorioBackups.Image = ((System.Drawing.Image)(resources.GetObject("btnDiretorioBackups.Image")));
             this.btnDiretorioBackups.Location = new System.Drawing.Point(516, 20);
             this.btnDiretorioBackups.Name = "btnDiretorioBackups";
-            this.btnDiretorioBackups.ShadowDecoration.Parent = this.btnDiretorioBackups;
             this.btnDiretorioBackups.Size = new System.Drawing.Size(46, 24);
             this.btnDiretorioBackups.TabIndex = 38;
             this.btnDiretorioBackups.Click += new System.EventHandler(this.btnDiretorioBackups_Click);
@@ -1397,23 +1179,13 @@
             // 
             this.tbDiretorioBackups.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbDiretorioBackups.DefaultText = "";
-            this.tbDiretorioBackups.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbDiretorioBackups.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbDiretorioBackups.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorioBackups.DisabledState.Parent = this.tbDiretorioBackups;
-            this.tbDiretorioBackups.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorioBackups.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbDiretorioBackups.FocusedState.Parent = this.tbDiretorioBackups;
             this.tbDiretorioBackups.ForeColor = System.Drawing.Color.Black;
-            this.tbDiretorioBackups.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbDiretorioBackups.HoverState.Parent = this.tbDiretorioBackups;
             this.tbDiretorioBackups.Location = new System.Drawing.Point(106, 20);
             this.tbDiretorioBackups.Name = "tbDiretorioBackups";
             this.tbDiretorioBackups.PasswordChar = '\0';
-            this.tbDiretorioBackups.PlaceholderText = "";
             this.tbDiretorioBackups.ReadOnly = true;
             this.tbDiretorioBackups.SelectedText = "";
-            this.tbDiretorioBackups.ShadowDecoration.Parent = this.tbDiretorioBackups;
             this.tbDiretorioBackups.Size = new System.Drawing.Size(404, 24);
             this.tbDiretorioBackups.TabIndex = 36;
             // 
@@ -1448,10 +1220,6 @@
             // 
             this.chbxEmail.AutoSize = true;
             this.chbxEmail.BackColor = System.Drawing.Color.Transparent;
-            this.chbxEmail.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxEmail.CheckedState.BorderRadius = 2;
-            this.chbxEmail.CheckedState.BorderThickness = 0;
-            this.chbxEmail.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxEmail.Enabled = false;
             this.chbxEmail.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxEmail.ForeColor = System.Drawing.Color.Black;
@@ -1460,10 +1228,7 @@
             this.chbxEmail.Size = new System.Drawing.Size(181, 17);
             this.chbxEmail.TabIndex = 0;
             this.chbxEmail.Text = "Ativar Integração com o E-mail";
-            this.chbxEmail.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxEmail.UncheckedState.BorderRadius = 2;
-            this.chbxEmail.UncheckedState.BorderThickness = 0;
-            this.chbxEmail.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxEmail.UseVisualStyleBackColor = false;
             // 
             // gpbxEmail
@@ -1487,22 +1252,12 @@
             // 
             this.tbDestinatarios_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbDestinatarios_Email.DefaultText = "";
-            this.tbDestinatarios_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbDestinatarios_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbDestinatarios_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDestinatarios_Email.DisabledState.Parent = this.tbDestinatarios_Email;
-            this.tbDestinatarios_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDestinatarios_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbDestinatarios_Email.FocusedState.Parent = this.tbDestinatarios_Email;
             this.tbDestinatarios_Email.ForeColor = System.Drawing.Color.Black;
-            this.tbDestinatarios_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbDestinatarios_Email.HoverState.Parent = this.tbDestinatarios_Email;
             this.tbDestinatarios_Email.Location = new System.Drawing.Point(68, 94);
             this.tbDestinatarios_Email.Name = "tbDestinatarios_Email";
             this.tbDestinatarios_Email.PasswordChar = '\0';
-            this.tbDestinatarios_Email.PlaceholderText = "";
             this.tbDestinatarios_Email.SelectedText = "";
-            this.tbDestinatarios_Email.ShadowDecoration.Parent = this.tbDestinatarios_Email;
             this.tbDestinatarios_Email.Size = new System.Drawing.Size(234, 24);
             this.tbDestinatarios_Email.TabIndex = 63;
             // 
@@ -1510,22 +1265,12 @@
             // 
             this.tbAssunto_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbAssunto_Email.DefaultText = "";
-            this.tbAssunto_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbAssunto_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbAssunto_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbAssunto_Email.DisabledState.Parent = this.tbAssunto_Email;
-            this.tbAssunto_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbAssunto_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbAssunto_Email.FocusedState.Parent = this.tbAssunto_Email;
             this.tbAssunto_Email.ForeColor = System.Drawing.Color.Black;
-            this.tbAssunto_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbAssunto_Email.HoverState.Parent = this.tbAssunto_Email;
             this.tbAssunto_Email.Location = new System.Drawing.Point(68, 62);
             this.tbAssunto_Email.Name = "tbAssunto_Email";
             this.tbAssunto_Email.PasswordChar = '\0';
-            this.tbAssunto_Email.PlaceholderText = "";
             this.tbAssunto_Email.SelectedText = "";
-            this.tbAssunto_Email.ShadowDecoration.Parent = this.tbAssunto_Email;
             this.tbAssunto_Email.Size = new System.Drawing.Size(365, 24);
             this.tbAssunto_Email.TabIndex = 62;
             // 
@@ -1533,10 +1278,6 @@
             // 
             this.chbxNotificacaoErro_Email.AutoSize = true;
             this.chbxNotificacaoErro_Email.BackColor = System.Drawing.Color.Transparent;
-            this.chbxNotificacaoErro_Email.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxNotificacaoErro_Email.CheckedState.BorderRadius = 2;
-            this.chbxNotificacaoErro_Email.CheckedState.BorderThickness = 0;
-            this.chbxNotificacaoErro_Email.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxNotificacaoErro_Email.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxNotificacaoErro_Email.ForeColor = System.Drawing.Color.Black;
             this.chbxNotificacaoErro_Email.Location = new System.Drawing.Point(30, 144);
@@ -1545,20 +1286,13 @@
             this.chbxNotificacaoErro_Email.TabIndex = 61;
             this.chbxNotificacaoErro_Email.Text = "Receber Notificações em Casos de Erro ao Gerar o Arquivo de Backup (Log do Erro e" +
     "m anexo)";
-            this.chbxNotificacaoErro_Email.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxNotificacaoErro_Email.UncheckedState.BorderRadius = 2;
-            this.chbxNotificacaoErro_Email.UncheckedState.BorderThickness = 0;
-            this.chbxNotificacaoErro_Email.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxNotificacaoErro_Email.UseVisualStyleBackColor = false;
             // 
             // chbxLogBackup_Email
             // 
             this.chbxLogBackup_Email.AutoSize = true;
             this.chbxLogBackup_Email.BackColor = System.Drawing.Color.Transparent;
-            this.chbxLogBackup_Email.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxLogBackup_Email.CheckedState.BorderRadius = 2;
-            this.chbxLogBackup_Email.CheckedState.BorderThickness = 0;
-            this.chbxLogBackup_Email.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxLogBackup_Email.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxLogBackup_Email.ForeColor = System.Drawing.Color.Black;
             this.chbxLogBackup_Email.Location = new System.Drawing.Point(30, 124);
@@ -1566,10 +1300,7 @@
             this.chbxLogBackup_Email.Size = new System.Drawing.Size(266, 17);
             this.chbxLogBackup_Email.TabIndex = 60;
             this.chbxLogBackup_Email.Text = "Receber o Log do Backup em \".txt\" como anexo";
-            this.chbxLogBackup_Email.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxLogBackup_Email.UncheckedState.BorderRadius = 2;
-            this.chbxLogBackup_Email.UncheckedState.BorderThickness = 0;
-            this.chbxLogBackup_Email.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxLogBackup_Email.UseVisualStyleBackColor = false;
             // 
             // label17
@@ -1618,10 +1349,6 @@
             // 
             this.chbxTelegram.AutoSize = true;
             this.chbxTelegram.BackColor = System.Drawing.Color.Transparent;
-            this.chbxTelegram.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxTelegram.CheckedState.BorderRadius = 2;
-            this.chbxTelegram.CheckedState.BorderThickness = 0;
-            this.chbxTelegram.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxTelegram.Enabled = false;
             this.chbxTelegram.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxTelegram.ForeColor = System.Drawing.Color.Black;
@@ -1630,10 +1357,7 @@
             this.chbxTelegram.Size = new System.Drawing.Size(196, 17);
             this.chbxTelegram.TabIndex = 0;
             this.chbxTelegram.Text = "Ativar Integração com o Telegram";
-            this.chbxTelegram.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxTelegram.UncheckedState.BorderRadius = 2;
-            this.chbxTelegram.UncheckedState.BorderThickness = 0;
-            this.chbxTelegram.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxTelegram.UseVisualStyleBackColor = false;
             // 
             // gpbxTelegram
@@ -1653,17 +1377,11 @@
             // 
             // btnBuscarChatID
             // 
-            this.btnBuscarChatID.CheckedState.Parent = this.btnBuscarChatID;
             this.btnBuscarChatID.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBuscarChatID.CustomImages.Parent = this.btnBuscarChatID;
-            this.btnBuscarChatID.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnBuscarChatID.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnBuscarChatID.ForeColor = System.Drawing.Color.White;
-            this.btnBuscarChatID.HoverState.Parent = this.btnBuscarChatID;
-            this.btnBuscarChatID.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarChatID.Image")));
             this.btnBuscarChatID.Location = new System.Drawing.Point(409, 50);
             this.btnBuscarChatID.Name = "btnBuscarChatID";
-            this.btnBuscarChatID.ShadowDecoration.Parent = this.btnBuscarChatID;
             this.btnBuscarChatID.Size = new System.Drawing.Size(40, 22);
             this.btnBuscarChatID.TabIndex = 65;
             this.btnBuscarChatID.Click += new System.EventHandler(this.btnBuscarChatID_Click);
@@ -1672,22 +1390,12 @@
             // 
             this.tbChatIDDestino_Telegram.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbChatIDDestino_Telegram.DefaultText = "";
-            this.tbChatIDDestino_Telegram.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbChatIDDestino_Telegram.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbChatIDDestino_Telegram.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbChatIDDestino_Telegram.DisabledState.Parent = this.tbChatIDDestino_Telegram;
-            this.tbChatIDDestino_Telegram.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbChatIDDestino_Telegram.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbChatIDDestino_Telegram.FocusedState.Parent = this.tbChatIDDestino_Telegram;
             this.tbChatIDDestino_Telegram.ForeColor = System.Drawing.Color.Black;
-            this.tbChatIDDestino_Telegram.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbChatIDDestino_Telegram.HoverState.Parent = this.tbChatIDDestino_Telegram;
             this.tbChatIDDestino_Telegram.Location = new System.Drawing.Point(137, 49);
             this.tbChatIDDestino_Telegram.Name = "tbChatIDDestino_Telegram";
             this.tbChatIDDestino_Telegram.PasswordChar = '\0';
-            this.tbChatIDDestino_Telegram.PlaceholderText = "";
             this.tbChatIDDestino_Telegram.SelectedText = "";
-            this.tbChatIDDestino_Telegram.ShadowDecoration.Parent = this.tbChatIDDestino_Telegram;
             this.tbChatIDDestino_Telegram.Size = new System.Drawing.Size(266, 24);
             this.tbChatIDDestino_Telegram.TabIndex = 64;
             // 
@@ -1695,10 +1403,6 @@
             // 
             this.chbxNotificacaoErro_Telegram.AutoSize = true;
             this.chbxNotificacaoErro_Telegram.BackColor = System.Drawing.Color.Transparent;
-            this.chbxNotificacaoErro_Telegram.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxNotificacaoErro_Telegram.CheckedState.BorderRadius = 2;
-            this.chbxNotificacaoErro_Telegram.CheckedState.BorderThickness = 0;
-            this.chbxNotificacaoErro_Telegram.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxNotificacaoErro_Telegram.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxNotificacaoErro_Telegram.ForeColor = System.Drawing.Color.Black;
             this.chbxNotificacaoErro_Telegram.Location = new System.Drawing.Point(30, 102);
@@ -1707,20 +1411,13 @@
             this.chbxNotificacaoErro_Telegram.TabIndex = 63;
             this.chbxNotificacaoErro_Telegram.Text = "Receber Notificações em Casos de Erro ao Gerar o Arquivo de Backup (Log do Erro t" +
     "ambém)";
-            this.chbxNotificacaoErro_Telegram.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxNotificacaoErro_Telegram.UncheckedState.BorderRadius = 2;
-            this.chbxNotificacaoErro_Telegram.UncheckedState.BorderThickness = 0;
-            this.chbxNotificacaoErro_Telegram.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxNotificacaoErro_Telegram.UseVisualStyleBackColor = false;
             // 
             // chbxLogBackup_Telegram
             // 
             this.chbxLogBackup_Telegram.AutoSize = true;
             this.chbxLogBackup_Telegram.BackColor = System.Drawing.Color.Transparent;
-            this.chbxLogBackup_Telegram.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxLogBackup_Telegram.CheckedState.BorderRadius = 2;
-            this.chbxLogBackup_Telegram.CheckedState.BorderThickness = 0;
-            this.chbxLogBackup_Telegram.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxLogBackup_Telegram.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxLogBackup_Telegram.ForeColor = System.Drawing.Color.Black;
             this.chbxLogBackup_Telegram.Location = new System.Drawing.Point(30, 79);
@@ -1728,10 +1425,7 @@
             this.chbxLogBackup_Telegram.Size = new System.Drawing.Size(201, 17);
             this.chbxLogBackup_Telegram.TabIndex = 62;
             this.chbxLogBackup_Telegram.Text = "Receber o Log do Backup em \".txt\"";
-            this.chbxLogBackup_Telegram.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxLogBackup_Telegram.UncheckedState.BorderRadius = 2;
-            this.chbxLogBackup_Telegram.UncheckedState.BorderThickness = 0;
-            this.chbxLogBackup_Telegram.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxLogBackup_Telegram.UseVisualStyleBackColor = false;
             // 
             // label21
@@ -1776,10 +1470,6 @@
             // 
             this.chbxFTP.AutoSize = true;
             this.chbxFTP.BackColor = System.Drawing.Color.Transparent;
-            this.chbxFTP.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxFTP.CheckedState.BorderRadius = 2;
-            this.chbxFTP.CheckedState.BorderThickness = 0;
-            this.chbxFTP.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxFTP.Enabled = false;
             this.chbxFTP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxFTP.ForeColor = System.Drawing.Color.Black;
@@ -1788,10 +1478,7 @@
             this.chbxFTP.Size = new System.Drawing.Size(209, 17);
             this.chbxFTP.TabIndex = 0;
             this.chbxFTP.Text = "Ativar Integração com o FTP Próprio";
-            this.chbxFTP.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxFTP.UncheckedState.BorderRadius = 2;
-            this.chbxFTP.UncheckedState.BorderThickness = 0;
-            this.chbxFTP.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxFTP.UseVisualStyleBackColor = false;
             // 
             // gpbxFTP
@@ -1853,13 +1540,6 @@
             // 
             this.DiasExcluirBackupsAntigos_FTP.BackColor = System.Drawing.Color.Transparent;
             this.DiasExcluirBackupsAntigos_FTP.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.Parent = this.DiasExcluirBackupsAntigos_FTP;
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(177)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
-            this.DiasExcluirBackupsAntigos_FTP.DisabledState.UpDownButtonForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(203)))), ((int)(((byte)(203)))));
-            this.DiasExcluirBackupsAntigos_FTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.DiasExcluirBackupsAntigos_FTP.FocusedState.Parent = this.DiasExcluirBackupsAntigos_FTP;
             this.DiasExcluirBackupsAntigos_FTP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DiasExcluirBackupsAntigos_FTP.ForeColor = System.Drawing.Color.Black;
@@ -1870,29 +1550,20 @@
             0,
             0});
             this.DiasExcluirBackupsAntigos_FTP.Name = "DiasExcluirBackupsAntigos_FTP";
-            this.DiasExcluirBackupsAntigos_FTP.ShadowDecoration.Parent = this.DiasExcluirBackupsAntigos_FTP;
             this.DiasExcluirBackupsAntigos_FTP.Size = new System.Drawing.Size(68, 26);
             this.DiasExcluirBackupsAntigos_FTP.TabIndex = 48;
-            this.DiasExcluirBackupsAntigos_FTP.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             // 
             // chbxExcluiBackupsAntigos_FTP
             // 
             this.chbxExcluiBackupsAntigos_FTP.AutoSize = true;
             this.chbxExcluiBackupsAntigos_FTP.BackColor = System.Drawing.Color.Transparent;
-            this.chbxExcluiBackupsAntigos_FTP.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxExcluiBackupsAntigos_FTP.CheckedState.BorderRadius = 2;
-            this.chbxExcluiBackupsAntigos_FTP.CheckedState.BorderThickness = 0;
-            this.chbxExcluiBackupsAntigos_FTP.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxExcluiBackupsAntigos_FTP.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxExcluiBackupsAntigos_FTP.Location = new System.Drawing.Point(67, 119);
             this.chbxExcluiBackupsAntigos_FTP.Name = "chbxExcluiBackupsAntigos_FTP";
             this.chbxExcluiBackupsAntigos_FTP.Size = new System.Drawing.Size(257, 17);
             this.chbxExcluiBackupsAntigos_FTP.TabIndex = 47;
             this.chbxExcluiBackupsAntigos_FTP.Text = "Excluir Arquivos de Backup mais antigos que:";
-            this.chbxExcluiBackupsAntigos_FTP.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxExcluiBackupsAntigos_FTP.UncheckedState.BorderRadius = 2;
-            this.chbxExcluiBackupsAntigos_FTP.UncheckedState.BorderThickness = 0;
-            this.chbxExcluiBackupsAntigos_FTP.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxExcluiBackupsAntigos_FTP.UseVisualStyleBackColor = false;
             // 
             // label10
@@ -1910,22 +1581,12 @@
             // 
             this.tbDiretorio_FTP.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbDiretorio_FTP.DefaultText = "";
-            this.tbDiretorio_FTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbDiretorio_FTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbDiretorio_FTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorio_FTP.DisabledState.Parent = this.tbDiretorio_FTP;
-            this.tbDiretorio_FTP.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbDiretorio_FTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbDiretorio_FTP.FocusedState.Parent = this.tbDiretorio_FTP;
             this.tbDiretorio_FTP.ForeColor = System.Drawing.Color.Black;
-            this.tbDiretorio_FTP.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbDiretorio_FTP.HoverState.Parent = this.tbDiretorio_FTP;
             this.tbDiretorio_FTP.Location = new System.Drawing.Point(67, 53);
             this.tbDiretorio_FTP.Name = "tbDiretorio_FTP";
             this.tbDiretorio_FTP.PasswordChar = '\0';
-            this.tbDiretorio_FTP.PlaceholderText = "";
             this.tbDiretorio_FTP.SelectedText = "";
-            this.tbDiretorio_FTP.ShadowDecoration.Parent = this.tbDiretorio_FTP;
             this.tbDiretorio_FTP.Size = new System.Drawing.Size(365, 24);
             this.tbDiretorio_FTP.TabIndex = 45;
             // 
@@ -1942,10 +1603,6 @@
             // 
             this.chbxMega.AutoSize = true;
             this.chbxMega.BackColor = System.Drawing.Color.Transparent;
-            this.chbxMega.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxMega.CheckedState.BorderRadius = 2;
-            this.chbxMega.CheckedState.BorderThickness = 0;
-            this.chbxMega.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxMega.Enabled = false;
             this.chbxMega.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxMega.ForeColor = System.Drawing.Color.Black;
@@ -1954,10 +1611,7 @@
             this.chbxMega.Size = new System.Drawing.Size(194, 17);
             this.chbxMega.TabIndex = 0;
             this.chbxMega.Text = "Ativar Integração com o Mega.nz";
-            this.chbxMega.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxMega.UncheckedState.BorderRadius = 2;
-            this.chbxMega.UncheckedState.BorderThickness = 0;
-            this.chbxMega.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxMega.UseVisualStyleBackColor = false;
             // 
             // gpbxMega
@@ -1999,39 +1653,23 @@
             // 
             this.tbPasta_MegaNZ.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbPasta_MegaNZ.DefaultText = "";
-            this.tbPasta_MegaNZ.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tbPasta_MegaNZ.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tbPasta_MegaNZ.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbPasta_MegaNZ.DisabledState.Parent = this.tbPasta_MegaNZ;
-            this.tbPasta_MegaNZ.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tbPasta_MegaNZ.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tbPasta_MegaNZ.FocusedState.Parent = this.tbPasta_MegaNZ;
             this.tbPasta_MegaNZ.ForeColor = System.Drawing.Color.Black;
-            this.tbPasta_MegaNZ.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tbPasta_MegaNZ.HoverState.Parent = this.tbPasta_MegaNZ;
             this.tbPasta_MegaNZ.Location = new System.Drawing.Point(67, 53);
             this.tbPasta_MegaNZ.Name = "tbPasta_MegaNZ";
             this.tbPasta_MegaNZ.PasswordChar = '\0';
-            this.tbPasta_MegaNZ.PlaceholderText = "";
             this.tbPasta_MegaNZ.ReadOnly = true;
             this.tbPasta_MegaNZ.SelectedText = "";
-            this.tbPasta_MegaNZ.ShadowDecoration.Parent = this.tbPasta_MegaNZ;
             this.tbPasta_MegaNZ.Size = new System.Drawing.Size(365, 24);
             this.tbPasta_MegaNZ.TabIndex = 29;
             // 
             // btnSalvar
             // 
-            this.btnSalvar.CheckedState.Parent = this.btnSalvar;
             this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalvar.CustomImages.Parent = this.btnSalvar;
-            this.btnSalvar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.btnSalvar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.HoverState.Parent = this.btnSalvar;
-            this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
             this.btnSalvar.Location = new System.Drawing.Point(514, 675);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.ShadowDecoration.Parent = this.btnSalvar;
             this.btnSalvar.Size = new System.Drawing.Size(58, 39);
             this.btnSalvar.TabIndex = 16;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
@@ -2041,26 +1679,15 @@
             this.bunifuElipseBtnSalvar.ElipseRadius = 15;
             this.bunifuElipseBtnSalvar.TargetControl = this.btnSalvar;
             // 
-            // bunifuDragControl1
             // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this;
-            this.bunifuDragControl1.Vertical = true;
             // 
             // btnFechar
             // 
-            this.btnFechar.CheckedState.Parent = this.btnFechar;
             this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnFechar.CustomImages.Parent = this.btnFechar;
-            this.btnFechar.FillColor = System.Drawing.Color.Red;
             this.btnFechar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnFechar.ForeColor = System.Drawing.Color.White;
-            this.btnFechar.HoverState.Parent = this.btnFechar;
-            this.btnFechar.Image = ((System.Drawing.Image)(resources.GetObject("btnFechar.Image")));
             this.btnFechar.Location = new System.Drawing.Point(584, 675);
             this.btnFechar.Name = "btnFechar";
-            this.btnFechar.ShadowDecoration.Parent = this.btnFechar;
             this.btnFechar.Size = new System.Drawing.Size(58, 39);
             this.btnFechar.TabIndex = 17;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
@@ -2098,30 +1725,24 @@
             this.bunifuSnackbar1.DoubleClickToClose = true;
             this.bunifuSnackbar1.DurationAfterIdle = 3000;
             this.bunifuSnackbar1.ErrorOptions.ActionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSnackbar1.ErrorOptions.ActionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bunifuSnackbar1.ErrorOptions.ActionBorderRadius = 1;
             this.bunifuSnackbar1.ErrorOptions.ActionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
             this.bunifuSnackbar1.ErrorOptions.ActionForeColor = System.Drawing.Color.Black;
             this.bunifuSnackbar1.ErrorOptions.BackColor = System.Drawing.Color.White;
-            this.bunifuSnackbar1.ErrorOptions.BorderColor = System.Drawing.Color.White;
             this.bunifuSnackbar1.ErrorOptions.CloseIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(199)))));
             this.bunifuSnackbar1.ErrorOptions.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.bunifuSnackbar1.ErrorOptions.ForeColor = System.Drawing.Color.Black;
-            this.bunifuSnackbar1.ErrorOptions.Icon = ((System.Drawing.Image)(resources.GetObject("resource.Icon")));
             this.bunifuSnackbar1.ErrorOptions.IconLeftMargin = 12;
             this.bunifuSnackbar1.FadeCloseIcon = false;
-            this.bunifuSnackbar1.Host = Bunifu.UI.WinForms.BunifuSnackbar.Hosts.FormOwner;
+            this.bunifuSnackbar1.Host = System.ComponentModel.Component.Hosts.FormOwner;
             this.bunifuSnackbar1.InformationOptions.ActionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSnackbar1.InformationOptions.ActionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bunifuSnackbar1.InformationOptions.ActionBorderRadius = 1;
             this.bunifuSnackbar1.InformationOptions.ActionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
             this.bunifuSnackbar1.InformationOptions.ActionForeColor = System.Drawing.Color.Black;
             this.bunifuSnackbar1.InformationOptions.BackColor = System.Drawing.Color.White;
-            this.bunifuSnackbar1.InformationOptions.BorderColor = System.Drawing.Color.White;
             this.bunifuSnackbar1.InformationOptions.CloseIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(145)))), ((int)(((byte)(213)))), ((int)(((byte)(255)))));
             this.bunifuSnackbar1.InformationOptions.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.bunifuSnackbar1.InformationOptions.ForeColor = System.Drawing.Color.Black;
-            this.bunifuSnackbar1.InformationOptions.Icon = ((System.Drawing.Image)(resources.GetObject("resource.Icon1")));
             this.bunifuSnackbar1.InformationOptions.IconLeftMargin = 12;
             this.bunifuSnackbar1.Margin = 10;
             this.bunifuSnackbar1.MaximumSize = new System.Drawing.Size(0, 0);
@@ -2133,29 +1754,23 @@
             this.bunifuSnackbar1.ShowIcon = true;
             this.bunifuSnackbar1.ShowShadows = true;
             this.bunifuSnackbar1.SuccessOptions.ActionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSnackbar1.SuccessOptions.ActionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bunifuSnackbar1.SuccessOptions.ActionBorderRadius = 1;
             this.bunifuSnackbar1.SuccessOptions.ActionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
             this.bunifuSnackbar1.SuccessOptions.ActionForeColor = System.Drawing.Color.Black;
             this.bunifuSnackbar1.SuccessOptions.BackColor = System.Drawing.Color.White;
-            this.bunifuSnackbar1.SuccessOptions.BorderColor = System.Drawing.Color.White;
             this.bunifuSnackbar1.SuccessOptions.CloseIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(255)))), ((int)(((byte)(237)))));
             this.bunifuSnackbar1.SuccessOptions.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.bunifuSnackbar1.SuccessOptions.ForeColor = System.Drawing.Color.Black;
-            this.bunifuSnackbar1.SuccessOptions.Icon = ((System.Drawing.Image)(resources.GetObject("resource.Icon2")));
             this.bunifuSnackbar1.SuccessOptions.IconLeftMargin = 12;
             this.bunifuSnackbar1.ViewsMargin = 7;
             this.bunifuSnackbar1.WarningOptions.ActionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.bunifuSnackbar1.WarningOptions.ActionBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bunifuSnackbar1.WarningOptions.ActionBorderRadius = 1;
             this.bunifuSnackbar1.WarningOptions.ActionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
             this.bunifuSnackbar1.WarningOptions.ActionForeColor = System.Drawing.Color.Black;
             this.bunifuSnackbar1.WarningOptions.BackColor = System.Drawing.Color.White;
-            this.bunifuSnackbar1.WarningOptions.BorderColor = System.Drawing.Color.White;
             this.bunifuSnackbar1.WarningOptions.CloseIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(229)))), ((int)(((byte)(143)))));
             this.bunifuSnackbar1.WarningOptions.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.bunifuSnackbar1.WarningOptions.ForeColor = System.Drawing.Color.Black;
-            this.bunifuSnackbar1.WarningOptions.Icon = ((System.Drawing.Image)(resources.GetObject("resource.Icon3")));
             this.bunifuSnackbar1.WarningOptions.IconLeftMargin = 12;
             this.bunifuSnackbar1.ZoomCloseIcon = true;
             // 
@@ -2173,20 +1788,13 @@
             // 
             this.chbxAguardarConclusaoAplicativoPreBackup.AutoSize = true;
             this.chbxAguardarConclusaoAplicativoPreBackup.BackColor = System.Drawing.Color.Transparent;
-            this.chbxAguardarConclusaoAplicativoPreBackup.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.chbxAguardarConclusaoAplicativoPreBackup.CheckedState.BorderRadius = 2;
-            this.chbxAguardarConclusaoAplicativoPreBackup.CheckedState.BorderThickness = 0;
-            this.chbxAguardarConclusaoAplicativoPreBackup.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
             this.chbxAguardarConclusaoAplicativoPreBackup.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbxAguardarConclusaoAplicativoPreBackup.Location = new System.Drawing.Point(431, 345);
             this.chbxAguardarConclusaoAplicativoPreBackup.Name = "chbxAguardarConclusaoAplicativoPreBackup";
             this.chbxAguardarConclusaoAplicativoPreBackup.Size = new System.Drawing.Size(131, 17);
             this.chbxAguardarConclusaoAplicativoPreBackup.TabIndex = 58;
             this.chbxAguardarConclusaoAplicativoPreBackup.Text = "Aguardar Conclusão";
-            this.chbxAguardarConclusaoAplicativoPreBackup.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxAguardarConclusaoAplicativoPreBackup.UncheckedState.BorderRadius = 2;
-            this.chbxAguardarConclusaoAplicativoPreBackup.UncheckedState.BorderThickness = 0;
-            this.chbxAguardarConclusaoAplicativoPreBackup.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.chbxAguardarConclusaoAplicativoPreBackup.UseVisualStyleBackColor = false;
             // 
             // frmNovoBackup
@@ -2258,52 +1866,51 @@
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.ComponentModel.Component bunifuElipse1;
         private System.Windows.Forms.Label label4;
-        private MetroFramework.Controls.MetroTabControl tbControl;
-        private MetroFramework.Controls.MetroTabPage metroTabPage2;
-        private MetroFramework.Controls.MetroTabPage metroTabPage1;
-        private MetroFramework.Controls.MetroTabPage metroTabPage3;
+        private System.Windows.Forms.TabControl tbControl;
+        private System.Windows.Forms.TabPage metroTabPage2;
+        private System.Windows.Forms.TabPage metroTabPage1;
+        private System.Windows.Forms.TabPage metroTabPage3;
         private System.Windows.Forms.Panel panel4;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxEmail;
+        private System.Windows.Forms.CheckBox chbxEmail;
         private System.Windows.Forms.GroupBox gpbxEmail;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel3;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxTelegram;
+        private System.Windows.Forms.CheckBox chbxTelegram;
         private System.Windows.Forms.GroupBox gpbxTelegram;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel2;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxFTP;
+        private System.Windows.Forms.CheckBox chbxFTP;
         private System.Windows.Forms.GroupBox gpbxFTP;
         private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxMega;
+        private System.Windows.Forms.CheckBox chbxMega;
         private System.Windows.Forms.GroupBox gpbxMega;
         private System.Windows.Forms.Label label26;
-        private Guna.UI2.WinForms.Guna2TextBox tbPasta_MegaNZ;
+        private System.Windows.Forms.TextBox tbPasta_MegaNZ;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2TextBox tbDiretorio_FTP;
-        private Guna.UI2.WinForms.Guna2TileButton btnSalvar;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBtnSalvar;
-        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private Guna.UI2.WinForms.Guna2TileButton btnFechar;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBtnFechar;
-        private MetroFramework.Controls.MetroTabPage metroTabPage4;
+        private System.Windows.Forms.TextBox tbDiretorio_FTP;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.ComponentModel.Component bunifuElipseBtnSalvar;
+        private System.Windows.Forms.Button btnFechar;
+        private System.ComponentModel.Component bunifuElipseBtnFechar;
+        private System.Windows.Forms.TabPage metroTabPage4;
         private System.Windows.Forms.Label label11;
-        private Guna.UI2.WinForms.Guna2TextBox tbDiretorioBancoDeDados_Servidor;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownPorta_Servidor;
+        private System.Windows.Forms.TextBox tbDiretorioBancoDeDados_Servidor;
+        private System.Windows.Forms.NumericUpDown nmUpDownPorta_Servidor;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private Guna.UI2.WinForms.Guna2TextBox tbSenha_Servidor;
+        private System.Windows.Forms.TextBox tbSenha_Servidor;
         private System.Windows.Forms.Label label14;
-        private Guna.UI2.WinForms.Guna2TextBox tbUsuario_Servidor;
+        private System.Windows.Forms.TextBox tbUsuario_Servidor;
         private System.Windows.Forms.Label label18;
-        private Guna.UI2.WinForms.Guna2TextBox tbServidor_Servidor;
-        private Guna.UI2.WinForms.Guna2TileButton btnEscolherBancoDeDados;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private System.Windows.Forms.TextBox tbServidor_Servidor;
+        private System.Windows.Forms.Button btnEscolherBancoDeDados;
+        private System.ComponentModel.Component bunifuElipse2;
         private System.Windows.Forms.Label label19;
-        private Bunifu.Framework.UI.BunifuDropdown dpDownFrequenciaBackups;
-        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
+        private System.Windows.Forms.ComboBox dpDownFrequenciaBackups;
+        private System.Windows.Forms.Panel bunifuSeparator1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.GroupBox gpbxPorHora;
         private System.Windows.Forms.Panel panel7;
@@ -2313,73 +1920,73 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownHorasFreqPorHora;
+        private System.Windows.Forms.NumericUpDown nmUpDownHorasFreqPorHora;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.CheckedListBox lstBoxDiasSemanaFreqSemanal;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownHorasFreqSemanal;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownHorasFreqDiaria;
+        private System.Windows.Forms.NumericUpDown nmUpDownHorasFreqSemanal;
+        private System.Windows.Forms.NumericUpDown nmUpDownHorasFreqDiaria;
         private System.Windows.Forms.LinkLabel lblExplicacaoFlags;
         private System.Windows.Forms.Label label8;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownDiasExcluirBackupsAntigos;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxExcluirBackupsAntigos;
+        private System.Windows.Forms.NumericUpDown nmUpDownDiasExcluirBackupsAntigos;
+        private System.Windows.Forms.CheckBox chbxExcluirBackupsAntigos;
         private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2TextBox tbArgumentosPosBackup;
-        private Guna.UI2.WinForms.Guna2TileButton btnDiretorioAppPosBackup;
+        private System.Windows.Forms.TextBox tbArgumentosPosBackup;
+        private System.Windows.Forms.Button btnDiretorioAppPosBackup;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2TextBox tbAplicativoPosBackup;
+        private System.Windows.Forms.TextBox tbAplicativoPosBackup;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2TextBox tbArgumentosPreBackup;
-        private Guna.UI2.WinForms.Guna2TileButton btnDiretorioAppPreBackup;
+        private System.Windows.Forms.TextBox tbArgumentosPreBackup;
+        private System.Windows.Forms.Button btnDiretorioAppPreBackup;
         private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2TextBox tbAplicativoPreBackup;
+        private System.Windows.Forms.TextBox tbAplicativoPreBackup;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckedListBox lstBoxFlagsBackup;
-        private Guna.UI2.WinForms.Guna2TileButton btnDiretorioBackups;
+        private System.Windows.Forms.Button btnDiretorioBackups;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2TextBox tbDiretorioBackups;
+        private System.Windows.Forms.TextBox tbDiretorioBackups;
         private System.Windows.Forms.Label label9;
-        private Guna.UI2.WinForms.Guna2NumericUpDown DiasExcluirBackupsAntigos_FTP;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxExcluiBackupsAntigos_FTP;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxNotificacaoErro_Telegram;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxLogBackup_Telegram;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxNotificacaoErro_Email;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxLogBackup_Email;
-        private Guna.UI2.WinForms.Guna2TextBox tbAssunto_Email;
-        private Guna.UI2.WinForms.Guna2TextBox tbDestinatarios_Email;
+        private System.Windows.Forms.NumericUpDown DiasExcluirBackupsAntigos_FTP;
+        private System.Windows.Forms.CheckBox chbxExcluiBackupsAntigos_FTP;
+        private System.Windows.Forms.CheckBox chbxNotificacaoErro_Telegram;
+        private System.Windows.Forms.CheckBox chbxLogBackup_Telegram;
+        private System.Windows.Forms.CheckBox chbxNotificacaoErro_Email;
+        private System.Windows.Forms.CheckBox chbxLogBackup_Email;
+        private System.Windows.Forms.TextBox tbAssunto_Email;
+        private System.Windows.Forms.TextBox tbDestinatarios_Email;
         private System.Windows.Forms.Label label16;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBtnDiretorioBackups;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBtnAppPreBackup;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBtnAppPosBackup;
-        private Bunifu.UI.WinForms.BunifuSnackbar bunifuSnackbar1;
-        private Guna.UI2.WinForms.Guna2TextBox tbChatIDDestino_Telegram;
-        private Guna.UI2.WinForms.Guna2TileButton btnBuscarChatID;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipseBtnDiretorioGFIX;
+        private System.ComponentModel.Component bunifuElipseBtnDiretorioBackups;
+        private System.ComponentModel.Component bunifuElipseBtnAppPreBackup;
+        private System.ComponentModel.Component bunifuElipseBtnAppPosBackup;
+        private System.ComponentModel.Component bunifuSnackbar1;
+        private System.Windows.Forms.TextBox tbChatIDDestino_Telegram;
+        private System.Windows.Forms.Button btnBuscarChatID;
+        private System.ComponentModel.Component bunifuElipseBtnDiretorioGFIX;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label33;
-        private Guna.UI2.WinForms.Guna2TextBox tbIdentificador_Servidor;
+        private System.Windows.Forms.TextBox tbIdentificador_Servidor;
         private System.Windows.Forms.LinkLabel lblExplicacaoIdentificador;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label29;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownMinutosFreqSemanal;
+        private System.Windows.Forms.NumericUpDown nmUpDownMinutosFreqSemanal;
         private System.Windows.Forms.Label label28;
-        private Guna.UI2.WinForms.Guna2NumericUpDown nmUpDownMinutosFreqDiaria;
+        private System.Windows.Forms.NumericUpDown nmUpDownMinutosFreqDiaria;
         private System.Windows.Forms.LinkLabel lblExplicacaoExclusaoBackupsAntigos;
         private System.Windows.Forms.Panel panel8;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxExecutaGFIX;
+        private System.Windows.Forms.CheckBox chbxExecutaGFIX;
         private System.Windows.Forms.GroupBox gpbxGFIX;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label36;
-        private Guna.UI2.WinForms.Guna2TextBox tbDiretorioGFIX;
-        private Guna.UI2.WinForms.Guna2TileButton btnDiretorioGFIX;
+        private System.Windows.Forms.TextBox tbDiretorioGFIX;
+        private System.Windows.Forms.Button btnDiretorioGFIX;
         private System.Windows.Forms.LinkLabel lblAvisoGfix;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;
+        private System.ComponentModel.Component bunifuElipse3;
         private System.Windows.Forms.LinkLabel lblAvisoArgumentosGfix;
-        private Guna.UI2.WinForms.Guna2TextBox tbArgumentosGFIX;
-        private Guna.UI2.WinForms.Guna2CheckBox chbxAguardarConclusaoAplicativoPreBackup;
+        private System.Windows.Forms.TextBox tbArgumentosGFIX;
+        private System.Windows.Forms.CheckBox chbxAguardarConclusaoAplicativoPreBackup;
     }
 }
