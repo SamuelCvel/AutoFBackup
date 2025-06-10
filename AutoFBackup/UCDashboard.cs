@@ -23,12 +23,11 @@ namespace FBackup
             this.frmMain = frmMain;
         }
 
-        private void SetaStatusIntegracao(string integracao, Bunifu.UI.WinForms.BunifuRadioButton btn)
+        private void SetaStatusIntegracao(string integracao, RadioButton btn)
         {
             if (Shared.Helpers.VerificaArquivoExistente(string.Format(@"Integracoes\{0}.json", integracao)))
             {
-                btn.OutlineColor = Color.FromArgb(59, 213, 79);
-                btn.RadioColor = Color.FromArgb(59, 213, 79);
+                btn.ForeColor = Color.FromArgb(59, 213, 79);
             }
         }
 

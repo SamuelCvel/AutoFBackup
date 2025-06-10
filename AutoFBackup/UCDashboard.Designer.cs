@@ -31,24 +31,24 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.bunifuSeparator1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.rdBtnEmail = new Bunifu.UI.WinForms.BunifuRadioButton();
+            this.rdBtnEmail = new System.Windows.Forms.RadioButton();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.rdBtnTelegram = new Bunifu.UI.WinForms.BunifuRadioButton();
+            this.rdBtnTelegram = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.rdBtnMegaNz = new Bunifu.UI.WinForms.BunifuRadioButton();
+            this.rdBtnMegaNz = new System.Windows.Forms.RadioButton();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.rdBtnFTP = new Bunifu.UI.WinForms.BunifuRadioButton();
-            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.rdBtnFTP = new System.Windows.Forms.RadioButton();
+            this.guna2GroupBox1 = new System.Windows.Forms.GroupBox();
+            this.guna2GroupBox2 = new System.Windows.Forms.GroupBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.dtGridViewRotinas = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.dtGridViewRotinas = new System.Windows.Forms.DataGridView();
             this.column_Identificador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.column_Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.column_Execucao = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,17 +64,13 @@
             this.SuspendLayout();
             // 
             // bunifuSeparator1
-            // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(239)))));
-            this.bunifuSeparator1.LineThickness = 1;
+            //
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(230)))), ((int)(((byte)(239)))));
             this.bunifuSeparator1.Location = new System.Drawing.Point(-2, 57);
             this.bunifuSeparator1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(665, 12);
+            this.bunifuSeparator1.Size = new System.Drawing.Size(665, 1);
             this.bunifuSeparator1.TabIndex = 0;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
             // 
             // panel2
             // 
@@ -86,23 +82,15 @@
             this.panel2.TabIndex = 4;
             // 
             // rdBtnEmail
-            // 
-            this.rdBtnEmail.AllowBindingControlLocation = false;
-            this.rdBtnEmail.BackColor = System.Drawing.Color.Transparent;
-            this.rdBtnEmail.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.rdBtnEmail.BorderThickness = 1;
+            //
+            this.rdBtnEmail.AutoCheck = false;
             this.rdBtnEmail.Checked = true;
             this.rdBtnEmail.Enabled = false;
             this.rdBtnEmail.Location = new System.Drawing.Point(5, 3);
             this.rdBtnEmail.Name = "rdBtnEmail";
-            this.rdBtnEmail.OutlineColor = System.Drawing.Color.Gray;
-            this.rdBtnEmail.OutlineColorTabFocused = System.Drawing.Color.Gray;
-            this.rdBtnEmail.OutlineColorUnchecked = System.Drawing.Color.Gray;
-            this.rdBtnEmail.RadioColor = System.Drawing.Color.Gray;
-            this.rdBtnEmail.RadioColorTabFocused = System.Drawing.Color.Gray;
-            this.rdBtnEmail.Size = new System.Drawing.Size(21, 21);
+            this.rdBtnEmail.Size = new System.Drawing.Size(14, 13);
             this.rdBtnEmail.TabIndex = 1;
-            this.rdBtnEmail.Text = null;
+            this.rdBtnEmail.TabStop = true;
             // 
             // panel4
             // 
@@ -114,23 +102,15 @@
             this.panel4.TabIndex = 5;
             // 
             // rdBtnTelegram
-            // 
-            this.rdBtnTelegram.AllowBindingControlLocation = false;
-            this.rdBtnTelegram.BackColor = System.Drawing.Color.Transparent;
-            this.rdBtnTelegram.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.rdBtnTelegram.BorderThickness = 1;
+            //
+            this.rdBtnTelegram.AutoCheck = false;
             this.rdBtnTelegram.Checked = true;
             this.rdBtnTelegram.Enabled = false;
             this.rdBtnTelegram.Location = new System.Drawing.Point(5, 3);
             this.rdBtnTelegram.Name = "rdBtnTelegram";
-            this.rdBtnTelegram.OutlineColor = System.Drawing.Color.Gray;
-            this.rdBtnTelegram.OutlineColorTabFocused = System.Drawing.Color.Gray;
-            this.rdBtnTelegram.OutlineColorUnchecked = System.Drawing.Color.Gray;
-            this.rdBtnTelegram.RadioColor = System.Drawing.Color.Gray;
-            this.rdBtnTelegram.RadioColorTabFocused = System.Drawing.Color.Gray;
-            this.rdBtnTelegram.Size = new System.Drawing.Size(21, 21);
+            this.rdBtnTelegram.Size = new System.Drawing.Size(14, 13);
             this.rdBtnTelegram.TabIndex = 1;
-            this.rdBtnTelegram.Text = null;
+            this.rdBtnTelegram.TabStop = true;
             // 
             // label1
             // 
@@ -169,23 +149,15 @@
             this.label2.Text = "Mega.nz";
             // 
             // rdBtnMegaNz
-            // 
-            this.rdBtnMegaNz.AllowBindingControlLocation = false;
-            this.rdBtnMegaNz.BackColor = System.Drawing.Color.Transparent;
-            this.rdBtnMegaNz.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.rdBtnMegaNz.BorderThickness = 1;
+            //
+            this.rdBtnMegaNz.AutoCheck = false;
             this.rdBtnMegaNz.Checked = true;
             this.rdBtnMegaNz.Enabled = false;
             this.rdBtnMegaNz.Location = new System.Drawing.Point(5, 3);
             this.rdBtnMegaNz.Name = "rdBtnMegaNz";
-            this.rdBtnMegaNz.OutlineColor = System.Drawing.Color.Gray;
-            this.rdBtnMegaNz.OutlineColorTabFocused = System.Drawing.Color.Gray;
-            this.rdBtnMegaNz.OutlineColorUnchecked = System.Drawing.Color.Gray;
-            this.rdBtnMegaNz.RadioColor = System.Drawing.Color.Gray;
-            this.rdBtnMegaNz.RadioColorTabFocused = System.Drawing.Color.Gray;
-            this.rdBtnMegaNz.Size = new System.Drawing.Size(21, 21);
+            this.rdBtnMegaNz.Size = new System.Drawing.Size(14, 13);
             this.rdBtnMegaNz.TabIndex = 1;
-            this.rdBtnMegaNz.Text = null;
+            this.rdBtnMegaNz.TabStop = true;
             // 
             // panel3
             // 
@@ -229,27 +201,18 @@
             this.panel1.TabIndex = 13;
             // 
             // rdBtnFTP
-            // 
-            this.rdBtnFTP.AllowBindingControlLocation = false;
-            this.rdBtnFTP.BackColor = System.Drawing.Color.Transparent;
-            this.rdBtnFTP.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.rdBtnFTP.BorderThickness = 1;
+            //
+            this.rdBtnFTP.AutoCheck = false;
             this.rdBtnFTP.Checked = true;
             this.rdBtnFTP.Enabled = false;
             this.rdBtnFTP.Location = new System.Drawing.Point(5, 3);
             this.rdBtnFTP.Name = "rdBtnFTP";
-            this.rdBtnFTP.OutlineColor = System.Drawing.Color.Gray;
-            this.rdBtnFTP.OutlineColorTabFocused = System.Drawing.Color.Gray;
-            this.rdBtnFTP.OutlineColorUnchecked = System.Drawing.Color.Gray;
-            this.rdBtnFTP.RadioColor = System.Drawing.Color.Gray;
-            this.rdBtnFTP.RadioColorTabFocused = System.Drawing.Color.Gray;
-            this.rdBtnFTP.Size = new System.Drawing.Size(21, 21);
+            this.rdBtnFTP.Size = new System.Drawing.Size(14, 13);
             this.rdBtnFTP.TabIndex = 1;
-            this.rdBtnFTP.Text = null;
+            this.rdBtnFTP.TabStop = true;
             // 
             // guna2GroupBox1
             // 
-            this.guna2GroupBox1.BorderRadius = 10;
             this.guna2GroupBox1.Controls.Add(this.panel2);
             this.guna2GroupBox1.Controls.Add(this.panel3);
             this.guna2GroupBox1.Controls.Add(this.panel4);
@@ -263,7 +226,6 @@
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.DimGray;
             this.guna2GroupBox1.Location = new System.Drawing.Point(26, 43);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
             this.guna2GroupBox1.Size = new System.Drawing.Size(517, 98);
             this.guna2GroupBox1.TabIndex = 18;
             this.guna2GroupBox1.Text = "Integrado Com:";
@@ -271,14 +233,12 @@
             // 
             // guna2GroupBox2
             // 
-            this.guna2GroupBox2.BorderRadius = 10;
             this.guna2GroupBox2.Controls.Add(this.label35);
             this.guna2GroupBox2.Controls.Add(this.dtGridViewRotinas);
             this.guna2GroupBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.DimGray;
             this.guna2GroupBox2.Location = new System.Drawing.Point(24, 180);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
-            this.guna2GroupBox2.ShadowDecoration.Parent = this.guna2GroupBox2;
             this.guna2GroupBox2.Size = new System.Drawing.Size(519, 377);
             this.guna2GroupBox2.TabIndex = 19;
             this.guna2GroupBox2.Text = "Rotinas de Backup:";
@@ -337,28 +297,6 @@
             this.dtGridViewRotinas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtGridViewRotinas.Size = new System.Drawing.Size(516, 308);
             this.dtGridViewRotinas.TabIndex = 0;
-            this.dtGridViewRotinas.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
-            this.dtGridViewRotinas.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.dtGridViewRotinas.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dtGridViewRotinas.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dtGridViewRotinas.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dtGridViewRotinas.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dtGridViewRotinas.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.dtGridViewRotinas.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.dtGridViewRotinas.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.dtGridViewRotinas.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dtGridViewRotinas.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtGridViewRotinas.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dtGridViewRotinas.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dtGridViewRotinas.ThemeStyle.HeaderStyle.Height = 17;
-            this.dtGridViewRotinas.ThemeStyle.ReadOnly = true;
-            this.dtGridViewRotinas.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dtGridViewRotinas.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dtGridViewRotinas.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dtGridViewRotinas.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.dtGridViewRotinas.ThemeStyle.RowsStyle.Height = 22;
-            this.dtGridViewRotinas.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(171)))), ((int)(((byte)(242)))));
-            this.dtGridViewRotinas.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
             this.dtGridViewRotinas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGridViewRotinas_CellDoubleClick);
             this.dtGridViewRotinas.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGridViewRotinas_CellMouseEnter);
             this.dtGridViewRotinas.MouseEnter += new System.EventHandler(this.dtGridViewRotinas_MouseEnter);
@@ -428,23 +366,23 @@
         }
 
         #endregion
-        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
+        private System.Windows.Forms.Panel bunifuSeparator1;
         private System.Windows.Forms.Panel panel2;
-        private Bunifu.UI.WinForms.BunifuRadioButton rdBtnEmail;
+        private System.Windows.Forms.RadioButton rdBtnEmail;
         private System.Windows.Forms.Panel panel4;
-        private Bunifu.UI.WinForms.BunifuRadioButton rdBtnTelegram;
+        private System.Windows.Forms.RadioButton rdBtnTelegram;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private Bunifu.UI.WinForms.BunifuRadioButton rdBtnMegaNz;
+        private System.Windows.Forms.RadioButton rdBtnMegaNz;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.UI.WinForms.BunifuRadioButton rdBtnFTP;
-        private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
-        private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox2;
-        private Guna.UI2.WinForms.Guna2DataGridView dtGridViewRotinas;
+        private System.Windows.Forms.RadioButton rdBtnFTP;
+        private System.Windows.Forms.GroupBox guna2GroupBox1;
+        private System.Windows.Forms.GroupBox guna2GroupBox2;
+        private System.Windows.Forms.DataGridView dtGridViewRotinas;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.DataGridViewTextBoxColumn column_Identificador;
         private System.Windows.Forms.DataGridViewTextBoxColumn column_Tipo;
